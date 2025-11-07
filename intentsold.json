@@ -1,0 +1,1334 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "hii",
+        "hiii",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hey",
+        "Hey there",
+        "What's up",
+        "Howdy",
+        "Greetings",
+        "Hi there",
+        "Hello, how are you?",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Hello! How are you doing? Need any career guidance?",
+        "Hi! Feel free to ask about career options or courses.",
+        "Hey! How’s it going? What would you like to know today?",
+        "Good to see you! How can I help you with your career plans?",
+        "Hi! Ready to explore some career options?",
+        "Hello! What can I assist you with?",
+        "Hey there! Need any advice on courses or career paths?",
+        "Hello! How’s your day going? Let's explore career opportunities!"
+      ]
+    },
+    {
+      "tag": "career_suggestions_after_math",
+      "patterns": [
+        "career options",
+        "math stream",
+        "What can I do after studying math?",
+        "What are the career options after math?",
+        "Careers after math subject",
+        "What to do after math?",
+        "Job opportunities after studying math?",
+        "What jobs can I get after studying math?",
+        "What fields can I go into after math?",
+        "What are the career choices after math?",
+        "What careers can I pursue with math?",
+        "What are the best career paths after math?",
+        "What careers are available for math students?",
+        "What is the career scope after math?",
+        "What are the top jobs after math?",
+        "What career paths can I follow with math?",
+        "What should I do after math?",
+        "What is the future career after math?",
+        "What options do I have after studying math?",
+        "What are the best opportunities after math?",
+        "What jobs require math?",
+        "What professions use math?",
+        "What career can I choose after completing math?",
+        "What is the best profession after studying math?",
+        "How can I use math in my career?",
+        "Can you suggest career options after math?",
+        "What higher education options are there after math?",
+        "What professional fields are good after math?",
+        "What are the top professions I can pursue after math?",
+        "What technical fields can I join after math?",
+        "What industries hire math graduates?",
+        "What professional degrees can I pursue after math?"
+      ],
+      "responses": [
+        "After completing math, there are several career paths you can explore. To guide you better, could you please tell me which subjects you are more interested in: Math, Chemistry, Physics, or Literature?"
+      ]
+    },
+    {
+      "tag": "interest_in_math",
+      "patterns": [
+        "I am interested in mathematics",
+        "I want to study mathematics",
+        "Tell me about careers in mathematics",
+        "How can I pursue a degree in mathematics?",
+        "What can I do with a math degree?",
+        "Mathematics"
+      ],
+      "responses": [
+        "Math opens up various career opportunities, including research, teaching, data science, and finance. If you love math, you can pursue a degree in mathematics or related fields like statistics, actuarial science, and economics.",
+        "A strong background in math can lead to careers in finance, where mathematical models are used for investment and risk analysis. You can explore roles such as data analyst, financial analyst, or actuary.",
+        "Mathematics is essential in fields like cryptography, artificial intelligence, and software development. With a math degree, you can enter tech-driven industries.",
+        "If you're passionate about research, a career in mathematical research or academia can be fulfilling. Pursue higher education to become a researcher or professor.",
+        "Math is crucial in engineering and science fields, providing the foundation for complex problem-solving. You can explore careers in these areas where math is applied to real-world problems."
+      ]
+    },
+    {
+      "tag": "statistics",
+      "patterns": [
+        "I am interested in statistics",
+        "I want to study statistics",
+        "Tell me about careers in statistics",
+        "How can I pursue a degree in statistics?",
+        "What can I do with a statistics degree?",
+        "Statistics"
+      ],
+      "responses": [
+        "Statistics is the science of collecting, analyzing, and interpreting data. To build a career in statistics, you can opt for a **Bachelor of Science (BSc) in Statistics**. This degree equips you with the skills to work with large datasets, perform statistical modeling, and conduct data analysis. Courses typically include probability theory, regression analysis, statistical inference, and computational statistics.\n\nWith a degree in statistics, you can pursue roles such as a data analyst, statistician, risk analyst, or biostatistician in industries like healthcare, finance, government, or technology. Advanced degrees like an **MSc in Statistics** or a **PhD in Biostatistics** can lead to research roles or senior positions in fields that rely heavily on data-driven decision-making."
+      ]
+    },
+    {
+      "tag": "actuarial_science",
+      "patterns": [
+        "I am interested in actuarial science",
+        "I want to study actuarial science",
+        "Tell me about careers in actuarial science",
+        "How can I pursue a degree in actuarial science?",
+        "What can I do with an actuarial science degree?",
+        "Actuarial Science"
+      ],
+      "responses": [
+        "Actuarial science focuses on assessing risk using mathematical and statistical methods, particularly in finance and insurance. To pursue a career in actuarial science, you can opt for a **Bachelor of Science (BSc) in Actuarial Science** or enroll in an **Actuarial Science Certification Program**. These programs teach you to analyze financial risks using probability, financial theory, and advanced mathematics.\n\nGraduates often work as actuaries in insurance companies, pension funds, or consultancies. Actuaries play a crucial role in determining the financial impact of uncertain future events. To become a certified actuary, you will need to pass a series of professional exams from actuarial bodies like the **Institute of Actuaries** or the **Society of Actuaries**. This field offers excellent job security, high earning potential, and a chance to work in various sectors such as health insurance, pensions, investments, and enterprise risk management."
+      ]
+    },
+    {
+      "tag": "economics",
+      "patterns": [
+        "I am interested in economics",
+        "I want to study economics",
+        "Tell me about careers in economics",
+        "How can I pursue a degree in economics?",
+        "What can I do with an economics degree?",
+        "Economics"
+      ],
+      "responses": [
+        "Economics is the study of how societies allocate resources and make decisions about production, distribution, and consumption. To pursue a career in economics, you can opt for a **Bachelor of Arts (BA) or Bachelor of Science (BSc) in Economics**. These programs provide insights into microeconomics, macroeconomics, econometrics, and public policy.\n\nEconomics graduates can pursue careers in finance, government, international organizations, or policy research. Roles such as economist, financial analyst, policy advisor, or economic consultant are common. Advanced degrees like a **Master’s in Economics** or **PhD in Economics** lead to specialized research or teaching positions in academia or policy institutes. Economics is a diverse field, providing tools to analyze and solve issues like inflation, unemployment, market behavior, and international trade."
+      ]
+    },
+    {
+      "tag": "finance",
+      "patterns": [
+        "I am interested in finance",
+        "I want to study finance",
+        "Tell me about careers in finance",
+        "How can I pursue a degree in finance?",
+        "What can I do with a finance degree?",
+        "Finance"
+      ],
+      "responses": [
+        "Finance involves managing money, investments, and financial institutions. To pursue a career in finance, you can opt for a **Bachelor of Business Administration (BBA) in Finance**, a **Bachelor of Commerce (BCom) in Finance**, or a **Bachelor of Science (BSc) in Financial Economics**. These programs cover topics such as financial markets, investment strategies, portfolio management, and corporate finance.\n\nGraduates with a finance degree can work in banking, investment firms, corporate finance, or financial advisory services. Common roles include financial analyst, investment banker, portfolio manager, and risk manager. With advanced certifications like the **Chartered Financial Analyst (CFA)** or **Certified Financial Planner (CFP)**, you can specialize in areas like wealth management, financial planning, or asset management. Finance offers dynamic career opportunities with strong earning potential and growth."
+      ]
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "I am interested in data science",
+        "I want to study data science",
+        "Tell me about careers in data science",
+        "How can I pursue a degree in data science?",
+        "What can I do with a data science degree?",
+        "Data Science"
+      ],
+      "responses": [
+        "Data science is an interdisciplinary field that combines statistics, computer science, and domain expertise to extract meaningful insights from data. To pursue a career in data science, you can opt for a **Bachelor of Science (BSc) in Data Science** or a **Bachelor of Technology (BTech) in Data Science**. These programs teach you to work with large datasets, perform data mining, build predictive models, and apply machine learning algorithms.\n\nWith the rise of big data, data scientists are in high demand across industries such as finance, healthcare, retail, and technology. Common career paths include data scientist, machine learning engineer, business analyst, and data engineer. Advanced studies in **Artificial Intelligence (AI)** or **Machine Learning (ML)** can further enhance your career opportunities, enabling you to solve complex problems using cutting-edge technologies."
+      ]
+    },
+    {
+      "tag": "cryptography",
+      "patterns": [
+        "I am interested in cryptography",
+        "I want to study cryptography",
+        "Tell me about careers in cryptography",
+        "How can I pursue a degree in cryptography?",
+        "What can I do with a cryptography degree?",
+        "Cryptography"
+      ],
+      "responses": [
+        "Cryptography is the science of securing communication and data using encryption techniques. To pursue a career in cryptography, you can opt for a **Bachelor of Science (BSc) in Computer Science** or a specialized **BSc in Cryptography and Information Security**. Courses typically cover encryption algorithms, secure communication protocols, and cyber defense strategies.\n\nCryptographers work in cybersecurity, national defense, and financial sectors to protect sensitive information. Career roles include cryptographer, cybersecurity analyst, and encryption specialist. Advanced degrees or certifications in **Information Security** or **Ethical Hacking** can further enhance your skills in protecting digital assets and securing information systems."
+      ]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": [
+        "I am interested in artificial intelligence",
+        "I want to study artificial intelligence",
+        "Tell me about careers in artificial intelligence",
+        "How can I pursue a degree in artificial intelligence?",
+        "What can I do with an artificial intelligence degree?",
+        "Artificial Intelligence"
+      ],
+      "responses": [
+        "Artificial intelligence (AI) is a rapidly growing field focused on creating machines that can simulate human intelligence. To pursue a career in AI, you can opt for a **Bachelor of Technology (BTech) in Artificial Intelligence** or a **Bachelor of Science (BSc) in AI and Machine Learning**. These programs teach you about machine learning algorithms, neural networks, natural language processing, and robotics.\n\nAI professionals are in high demand across industries such as technology, healthcare, automotive, and finance. Career paths include AI engineer, machine learning specialist, data scientist, and robotics developer. Further studies or certifications in **Deep Learning** or **Natural Language Processing (NLP)** can lead to specialized roles in AI research and development."
+      ]
+    },
+    {
+      "tag": "software_development",
+      "patterns": [
+        "I am interested in software development",
+        "I want to study software development",
+        "Tell me about careers in software development",
+        "How can I pursue a degree in software development?",
+        "What can I do with a software development degree?",
+        "Software Development"
+      ],
+      "responses": [
+        "Software development involves designing, coding, testing, and maintaining software applications. To pursue a career in software development, you can opt for a **Bachelor of Technology (BTech) in Computer Science** or a **Bachelor of Science (BSc) in Software Engineering**. These programs provide a strong foundation in programming languages, software design, algorithms, and database management.\n\nSoftware developers are needed in almost every industry, from tech startups to multinational corporations. Roles include software engineer, web developer, mobile app developer, and systems architect. Mastering programming languages such as **Python**, **Java**, or **C++**, and gaining experience with cloud computing and DevOps, can open doors to high-paying jobs in the ever-evolving tech landscape."
+      ]
+    },
+    {
+      "tag": "mathematical_research",
+      "patterns": [
+        "I am interested in mathematical research",
+        "I want to study mathematical research",
+        "Tell me about careers in mathematical research",
+        "How can I pursue a career in mathematical research?",
+        "What can I do with a degree in mathematical research?",
+        "Mathematical Research"
+      ],
+      "responses": [
+        "Mathematical research focuses on advancing knowledge in pure and applied mathematics through rigorous analysis, the development of new theories, and the solving of complex problems. To pursue a career in mathematical research, you should first complete a **Bachelor of Science (BSc) in Mathematics**, followed by advanced degrees like a **Master of Science (MSc)** or **PhD in Mathematics**. During your research, you may specialize in areas like algebra, geometry, number theory, or mathematical physics.\n\nMathematical researchers typically work in academic institutions, research labs, or industries where mathematics is applied to solve engineering, physics, or economic problems. Research positions require strong analytical skills, a deep understanding of theoretical mathematics, and the ability to apply mathematical methods to real-world challenges."
+      ]
+    },
+    {
+      "tag": "engineering",
+      "patterns": [
+        "I am interested in engineering",
+        "I want to study engineering",
+        "Tell me about careers in engineering",
+        "How can I pursue a degree in engineering?",
+        "What can I do with an engineering degree?",
+        "Engineering"
+      ],
+      "responses": [
+        "Engineering is a broad field that applies scientific and mathematical principles to design and build systems, structures, and machines. To pursue a career in engineering, you can opt for a **Bachelor of Technology (BTech)** or **Bachelor of Engineering (BE)** in fields such as Mechanical, Electrical, Civil, or Chemical Engineering. These programs provide technical knowledge in materials science, thermodynamics, electrical circuits, and structural analysis.\n\nEngineering graduates can work in a wide variety of sectors, including construction, automotive, aerospace, energy, and manufacturing. Common roles include mechanical engineer, civil engineer, electrical engineer, and chemical engineer. Advanced degrees or certifications can lead to specialized roles like robotics engineer, environmental engineer, or project manager, opening doors to innovation and leadership in cutting-edge industries."
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "I am interested in science",
+        "I want to study science",
+        "Tell me about careers in science",
+        "How can I pursue a degree in science?",
+        "What can I do with a science degree?",
+        "Science"
+      ],
+      "responses": [
+        "Science is a field that explores the natural world through observation, experimentation, and analysis. To pursue a career in science, you can opt for a **Bachelor of Science (BSc)** in fields like Physics, Chemistry, or Biology. These programs provide you with the foundational knowledge and laboratory skills needed to conduct experiments and understand scientific phenomena.\n\nScience graduates can work in research labs, healthcare, pharmaceuticals, or education. Career paths include becoming a research scientist, lab technician, environmental consultant, or science educator. Advanced degrees such as a **Master’s in a specialized field** or a **PhD** can lead to roles in academic research or high-level positions in industries such as biotechnology, energy, or materials science."
+      ]
+    },
+    {
+      "tag": "interest_in_chemistry",
+      "patterns": [
+        "I am interested in chemistry",
+        "I want to study chemistry",
+        "Tell me about careers in chemistry",
+        "How can I pursue a degree in chemistry?",
+        "What can I do with a chemistry degree?",
+        "Chemistry"
+      ],
+      "responses": [
+        "Chemistry is a central science that opens up diverse career opportunities in research, industry, and education. To pursue a career in chemistry, you can opt for a **Bachelor of Science (BSc) in Chemistry**. This program covers fundamental topics such as organic chemistry, inorganic chemistry, physical chemistry, and analytical chemistry. You will gain hands-on experience in laboratory techniques, chemical analysis, and research.\n\nWith a degree in chemistry, you can work in industries such as pharmaceuticals, petrochemicals, environmental science, and food manufacturing. Common job roles include chemist, laboratory technician, quality control specialist, or research assistant. These professionals work to develop new products, improve production processes, and ensure quality in manufacturing."
+      ]
+    },
+    {
+      "tag": "advanced_research_in_chemistry",
+      "patterns": [
+        "I am interested in advanced research in chemistry",
+        "I want to do research in chemistry",
+        "How can I pursue a research career in chemistry?",
+        "Tell me about research opportunities in chemistry",
+        "Advanced research in chemistry"
+      ],
+      "responses": [
+        "If you have a passion for research, chemistry offers exciting opportunities in areas such as drug discovery, materials science, and environmental protection. After obtaining a **Bachelor of Science (BSc) in Chemistry**, you can pursue an advanced degree like a **Master of Science (MSc)** or a **Doctor of Philosophy (PhD) in Chemistry**. These programs involve specialized coursework, research projects, and lab work in fields such as biochemistry, nanotechnology, or polymer chemistry.\n\nResearch chemists play a crucial role in creating new materials, developing cleaner energy solutions, and discovering new pharmaceuticals. They often work in academic institutions, government labs, or industries focused on innovation and product development. Advanced research can lead to roles as a principal investigator, research director, or university professor."
+      ]
+    },
+    {
+      "tag": "industrial_chemistry",
+      "patterns": [
+        "I am interested in industrial chemistry",
+        "I want to study industrial chemistry",
+        "Tell me about careers in industrial chemistry",
+        "How can I pursue a degree in industrial chemistry?",
+        "What can I do with a degree in industrial chemistry?",
+        "Industrial Chemistry"
+      ],
+      "responses": [
+        "Industrial chemistry involves applying chemical knowledge to manufacturing and industrial processes. To pursue this field, you can opt for a **Bachelor of Science (BSc) in Industrial Chemistry**. This program combines chemistry with engineering principles, focusing on production processes, materials handling, and quality control in industries like chemicals, energy, and materials.\n\nGraduates often find work in sectors like petrochemicals, food processing, textiles, and environmental protection. Common roles include process chemist, production supervisor, quality control analyst, and materials scientist. Industrial chemists optimize manufacturing processes, ensuring they are efficient, cost-effective, and environmentally friendly."
+      ]
+    },
+    {
+      "tag": "teaching_in_chemistry",
+      "patterns": [
+        "I am interested in teaching chemistry",
+        "I want to become a chemistry teacher",
+        "How can I pursue a teaching career in chemistry?",
+        "Tell me about careers in teaching chemistry",
+        "Teaching Chemistry"
+      ],
+      "responses": [
+        "For those passionate about education, becoming a chemistry teacher or professor can be a highly rewarding career. To start, you can pursue a **Bachelor of Science (BSc) in Chemistry**, followed by a **Bachelor of Education (BEd)** if you're interested in teaching at the school level. For higher education roles, obtaining a **Master of Science (MSc)** and eventually a **PhD in Chemistry** will be necessary.\n\nChemistry teachers are in demand at both the secondary and post-secondary levels. Professors at universities also engage in research, contributing to advancements in their field. Teaching allows you to inspire the next generation of scientists while also developing your own understanding of the subject."
+      ]
+    },
+    {
+      "tag": "chemical_engineering",
+      "patterns": [
+        "I am interested in chemical engineering",
+        "I want to study chemical engineering",
+        "Tell me about careers in chemical engineering",
+        "How can I pursue a degree in chemical engineering?",
+        "What can I do with a chemical engineering degree?",
+        "Chemical Engineering"
+      ],
+      "responses": [
+        "Chemical engineering is an applied branch of chemistry that focuses on designing, developing, and optimizing industrial processes for large-scale production. To pursue this field, you can opt for a **Bachelor of Technology (BTech) in Chemical Engineering**. The program covers topics like thermodynamics, chemical reaction engineering, process design, and transport phenomena.\n\nChemical engineers work in industries such as pharmaceuticals, energy, food processing, and environmental management. Their roles involve improving efficiency, ensuring safety, and minimizing environmental impact. Chemical engineers are responsible for scaling up laboratory processes to industrial production, working on everything from fuel refining to developing new materials. Advanced roles in chemical engineering require strong problem-solving skills and can lead to leadership positions in major industries."
+      ]
+    },
+    {
+      "tag": "physics",
+      "patterns": [
+        "I am interested in physics",
+        "I want to study physics",
+        "Tell me about careers in physics",
+        "How can I pursue a degree in physics?",
+        "What can I do with a physics degree?",
+        "Physics"
+      ],
+      "responses": [
+        "Physics opens up a vast array of career opportunities in research, technology, and education. With a **Bachelor of Science (BSc) in Physics**, you will explore the fundamental laws of nature, studying topics like classical mechanics, electromagnetism, thermodynamics, and quantum mechanics. Physics graduates can work as physicists in research labs, or in high-tech industries like aerospace, telecommunications, and energy. These industries rely heavily on physics to innovate and improve technologies such as satellite systems, renewable energy solutions, and advanced materials.",
+        "If you're interested in applying physics to real-world problems, you can pursue careers in engineering, data science, or programming. Many tech-driven industries, especially those focused on artificial intelligence, machine learning, or computational modeling, highly value the analytical and problem-solving skills that come with a physics degree. Physics majors are often employed in roles such as data scientist, systems engineer, or software developer.",
+        "Physics provides a foundational understanding of the natural world, which is essential for advancing fields like astronomy, materials science, and environmental science. After completing your **Bachelor of Science (BSc) in Physics**, you can specialize in areas such as quantum mechanics, condensed matter physics, or astrophysics by pursuing a **Master of Science (MSc)** or **PhD**. These specializations open doors to cutting-edge research and innovation in understanding the universe, developing new technologies, and solving global challenges such as climate change.",
+        "For those passionate about education, teaching physics can be a highly rewarding career. With a **BSc in Physics** followed by a **Bachelor of Education (BEd)**, you can teach at the secondary school level. For those interested in higher education and research, pursuing a **PhD in Physics** can lead to roles as a university professor, where you can both teach and contribute to the latest advancements in physics research.",
+        "Industries that demand problem-solving and critical thinking skills, such as electronics, automotive, and energy sectors, actively seek out physics graduates. Physicists in these industries work on developing new technologies, improving processes, and solving complex technical challenges. Roles in these fields include research scientist, product development engineer, or consultant, where you will apply physics principles to innovate and optimize products and systems."
+      ]
+    },
+    {
+      "tag": "advanced_research_in_physics",
+      "patterns": [
+        "I am interested in advanced research in physics",
+        "I want to do research in physics",
+        "How can I pursue a research career in physics?",
+        "Tell me about research opportunities in physics",
+        "Advanced research in physics"
+      ],
+      "responses": [
+        "Advanced research in physics offers exciting possibilities in areas such as quantum mechanics, astrophysics, and nuclear physics. After completing a **Bachelor of Science (BSc) in Physics**, pursuing a **Master of Science (MSc)** and **PhD in Physics** will enable you to specialize in fields like particle physics, cosmology, or condensed matter physics. Research physicists work at the forefront of science, making groundbreaking discoveries about the universe, developing new technologies, and pushing the boundaries of our understanding of physical phenomena.\n\nResearchers in physics are employed at universities, government laboratories, and in industries such as defense, space exploration, and renewable energy. As a research physicist, you can contribute to innovations like quantum computing, medical imaging technologies, or energy-efficient materials. Advanced research roles often require collaboration with interdisciplinary teams, and the work can have a significant impact on technology and society."
+      ]
+    },
+    {
+      "tag": "applied_physics",
+      "patterns": [
+        "I am interested in applied physics",
+        "I want to study applied physics",
+        "Tell me about careers in applied physics",
+        "How can I pursue a degree in applied physics?",
+        "What can I do with a degree in applied physics?",
+        "Applied Physics"
+      ],
+      "responses": [
+        "Applied physics focuses on using physics principles to solve real-world problems in industries like electronics, energy, and healthcare. To pursue this field, you can opt for a **Bachelor of Science (BSc) in Applied Physics**, which combines physics with practical applications such as electronics, optics, and materials science. This program will equip you with the skills needed to work on developing new technologies, improving industrial processes, and solving technical challenges.\n\nApplied physicists often work in industries such as renewable energy, semiconductor manufacturing, telecommunications, and medical technology. Common roles include process engineer, optical physicist, and systems analyst. These professionals use their understanding of physics to optimize technologies such as solar panels, electronic circuits, or medical devices. A strong foundation in applied physics is essential for careers in research and development, where innovation drives technological progress."
+      ]
+    },
+    {
+      "tag": "teaching_in_physics",
+      "patterns": [
+        "I am interested in teaching physics",
+        "I want to become a physics teacher",
+        "How can I pursue a teaching career in physics?",
+        "Tell me about careers in teaching physics",
+        "Teaching Physics"
+      ],
+      "responses": [
+        "Becoming a physics teacher or professor is a great way to share your passion for science with others. To teach at the school level, you can pursue a **Bachelor of Science (BSc) in Physics**, followed by a **Bachelor of Education (BEd)**. This path will prepare you to teach physics at the secondary school level, helping students develop a strong foundation in science. With additional qualifications, such as a **Master of Science (MSc)**, you can also teach advanced physics courses.\n\nIf you aspire to teach at the university level, a **PhD in Physics** is required. University professors not only teach but also conduct research, contributing to new discoveries and advancements in the field of physics. Teaching physics allows you to inspire students while deepening your own understanding of the subject."
+      ]
+    },
+    {
+      "tag": "engineering_physics",
+      "patterns": [
+        "I am interested in engineering physics",
+        "I want to study engineering physics",
+        "Tell me about careers in engineering physics",
+        "How can I pursue a degree in engineering physics?",
+        "What can I do with a degree in engineering physics?",
+        "Engineering Physics"
+      ],
+      "responses": [
+        "Engineering physics combines the principles of physics with engineering, focusing on designing and developing new technologies. To pursue this field, you can opt for a **Bachelor of Technology (BTech) in Engineering Physics**. This program integrates advanced physics with engineering subjects such as electronics, computer science, and materials engineering, preparing you for careers in cutting-edge fields like nanotechnology, robotics, and renewable energy.\n\nGraduates of engineering physics often work as research engineers, product development specialists, or technology consultants. They play a key role in innovating new technologies, improving the performance of existing systems, and solving complex technical challenges. Engineering physicists are in demand in industries such as aerospace, defense, telecommunications, and information technology."
+      ]
+    },
+    {
+      "tag": "literature",
+      "patterns": [
+        "I am interested in literature",
+        "I want to study literature",
+        "Tell me about careers in literature",
+        "How can I pursue a degree in literature?",
+        "What can I do with a degree in literature?",
+        "Literature",
+        "साहित्य में क्या करियर विकल्प हैं?",
+        "मुझे साहित्य में पढ़ाई करनी है",
+        "साहित्य में डिग्री कैसे प्राप्त करूं?"
+      ],
+      "responses": [
+        "Literature opens up a diverse range of career opportunities, including writing, editing, teaching, and more. You can pursue degrees such as **Bachelor of Arts (BA) in English Literature** or **Creative Writing**, where you will explore literary theory, analysis, and creative composition. Literature graduates often work in fields like publishing, journalism, or as content writers.",
+        "साहित्य एक विविध करियर के अवसरों का दरवाजा खोलता है, जिसमें लेखन, संपादन, और शिक्षण शामिल हैं। आप **अंग्रेजी साहित्य में कला स्नातक (BA)** या **रचनात्मक लेखन** जैसी डिग्रियाँ प्राप्त कर सकते हैं, जहाँ आप साहित्यिक सिद्धांत, विश्लेषण और रचनात्मक लेखन का अध्ययन करेंगे। साहित्य में स्नातक आमतौर पर प्रकाशन, पत्रकारिता, या सामग्री लेखन के क्षेत्र में काम करते हैं।",
+        "With a strong background in literature, you can consider careers in **publishing**, where editing, curating, and evaluating manuscripts are essential skills. Literature majors excel as **editors** or **proofreaders**, shaping the future of books, articles, and other written content.",
+        "साहित्य में मजबूत पृष्ठभूमि के साथ, आप **प्रकाशन** में करियर पर विचार कर सकते हैं, जहाँ संपादन, पांडुलिपियों का चयन, और मूल्यांकन महत्वपूर्ण कौशल हैं। साहित्य स्नातक **संपादक** या **प्रूफरीडर** के रूप में उत्कृष्ट प्रदर्शन करते हैं, पुस्तकों, लेखों और अन्य लिखित सामग्री के भविष्य को आकार देते हैं।",
+        "If you are passionate about creative writing, you can aim to become a **novelist**, **poet**, or **playwright**. Literature courses will enhance your storytelling skills, helping you to build compelling narratives and explore the craft of writing fiction, poetry, and drama.",
+        "यदि आप रचनात्मक लेखन के प्रति उत्साही हैं, तो आप **उपन्यासकार**, **कवि**, या **नाटककार** बनने का लक्ष्य रख सकते हैं। साहित्य के पाठ्यक्रम आपकी कहानी कहने की क्षमता को बढ़ाएँगे, जिससे आप सम्मोहक कथाओं का निर्माण कर सकेंगे और उपन्यास, कविता, और नाटक लेखन की कला का अध्ययन कर सकेंगे।",
+        "A degree in **English Literature** or **Comparative Literature** can also lead to roles in **research**, where you analyze texts, explore literary history, and contribute to academic publications. Research opportunities are available in universities, literary institutes, and think tanks.",
+        "एक डिग्री **अंग्रेजी साहित्य** या **तुलनात्मक साहित्य** में आपको **अनुसंधान** के क्षेत्रों में काम करने का मौका भी दे सकती है, जहाँ आप पाठों का विश्लेषण करेंगे, साहित्यिक इतिहास का अध्ययन करेंगे, और शैक्षणिक प्रकाशनों में योगदान करेंगे। अनुसंधान के अवसर विश्वविद्यालयों, साहित्यिक संस्थानों और विचार मंचों में उपलब्ध होते हैं।",
+        "Literature can also lead to non-traditional careers in **marketing** or **public relations**, where strong communication skills are vital. Literature graduates are often valued for their ability to craft compelling messages and engage audiences through storytelling.",
+        "साहित्य आपको **मार्केटिंग** या **जनसंपर्क** जैसे गैर-पारंपरिक करियरों की ओर भी ले जा सकता है, जहाँ मजबूत संचार कौशल बहुत महत्वपूर्ण होते हैं। साहित्य स्नातकों की अक्सर उनकी कहानी कहने और संदेशों को प्रभावी ढंग से संप्रेषित करने की क्षमता के लिए सराहना की जाती है।"
+      ]
+    },
+    {
+      "tag": "creative_writing",
+      "patterns": [
+        "poetry",
+        "drama",
+        "fiction writing",
+        "I want to study creative writing",
+        "Tell me about creative writing courses",
+        "What can I do with a degree in creative writing?",
+        "Creative writing",
+        "रचनात्मक लेखन क्या है?",
+        "रचनात्मक लेखन में डिग्री कैसे प्राप्त करें?",
+        "रचनात्मक लेखन का भविष्य क्या है?"
+      ],
+      "responses": [
+        "A degree in **Creative Writing** allows you to explore the craft of writing fiction, poetry, and drama. You will learn how to develop characters, create plots, and convey emotions through narrative. **Bachelor of Fine Arts (BFA)** or **Master of Fine Arts (MFA)** in Creative Writing are common degrees you can pursue. Many graduates become **novelists**, **poets**, or **screenwriters**.",
+        "**रचनात्मक लेखन** में डिग्री आपको उपन्यास, कविता, और नाटक लिखने की कला को समझने का मौका देती है। आप सीखेंगे कि पात्रों को कैसे विकसित किया जाए, कथानक कैसे बनाया जाए, और कथा के माध्यम से भावनाओं को कैसे व्यक्त किया जाए। आप **कला स्नातक (BFA)** या **कला परास्नातक (MFA)** रचनात्मक लेखन में कर सकते हैं। कई स्नातक **उपन्यासकार**, **कवि**, या **स्क्रीनराइटर** बन जाते हैं।",
+        "Creative Writing graduates often work in **publishing** as editors, or in **media** as scriptwriters. Storytelling skills are valuable in film, television, and even in marketing and advertising where content creation is key.",
+        "रचनात्मक लेखन स्नातक अक्सर **प्रकाशन** में संपादक के रूप में काम करते हैं, या **मीडिया** में पटकथा लेखक के रूप में काम करते हैं। कहानी कहने के कौशल फिल्म, टेलीविज़न और यहाँ तक कि मार्केटिंग और विज्ञापन में भी उपयोगी होते हैं, जहाँ सामग्री निर्माण प्रमुख होता है।",
+        "Creative writers can also pursue **freelance writing**, working on projects ranging from novels and short stories to blogs and journalism. This career path allows for flexibility and the opportunity to work on diverse writing assignments.",
+        "रचनात्मक लेखक **स्वतंत्र लेखन** का भी विकल्प चुन सकते हैं, जो उपन्यास और लघु कथाओं से लेकर ब्लॉग और पत्रकारिता तक के प्रोजेक्ट्स पर काम करने का मौका देता है। यह करियर मार्ग लचीलेपन की अनुमति देता है और विविध लेखन असाइनमेंट पर काम करने का अवसर प्रदान करता है।"
+      ]
+    },
+    {
+      "tag": "journalism",
+      "patterns": [
+        "I want to study journalism",
+        "Tell me about journalism courses",
+        "What can I do with a degree in journalism?",
+        "Journalism",
+        "पत्रकारिता क्या है?",
+        "पत्रकारिता में करियर कैसे बनाएं?",
+        "पत्रकारिता में डिग्री कैसे प्राप्त करें?"
+      ],
+      "responses": [
+        "A degree in **Journalism** prepares you for careers in media, reporting, and communication. **Bachelor of Arts (BA) in Journalism** or **Mass Communication** are common degrees, where you will learn how to investigate stories, write news articles, and report on current events. Journalism graduates often work as **reporters**, **news anchors**, or **editors** in newspapers, television, and digital media.",
+        "**पत्रकारिता** में डिग्री आपको मीडिया, रिपोर्टिंग, और संचार में करियर के लिए तैयार करती है। **पत्रकारिता में कला स्नातक (BA)** या **जन संचार** में डिग्री प्राप्त कर सकते हैं, जहाँ आप यह सीखेंगे कि कहानियों की जांच कैसे करें, समाचार लेख कैसे लिखें, और वर्तमान घटनाओं की रिपोर्ट कैसे करें। पत्रकारिता स्नातक आमतौर पर **रिपोर्टर**, **समाचार एंकर**, या **संपादक** के रूप में अखबारों, टेलीविज़न, और डिजिटल मीडिया में काम करते हैं।",
+        "Journalism offers specializations like **investigative journalism**, **sports journalism**, or **photojournalism**, where you can focus on specific types of reporting. Graduates can also work in **public relations** or **corporate communication**, where media relations are key.",
+        "पत्रकारिता में **अन्वेषणात्मक पत्रकारिता**, **खेल पत्रकारिता**, या **फोटो पत्रकारिता** जैसी विशेषताएँ शामिल हैं, जहाँ आप रिपोर्टिंग के विशिष्ट प्रकारों पर ध्यान केंद्रित कर सकते हैं। स्नातक **जनसंपर्क** या **कॉर्पोरेट संचार** में भी काम कर सकते हैं, जहाँ मीडिया संबंध महत्वपूर्ण होते हैं।",
+        "Digital journalism is an emerging field, where content is created for online platforms like blogs, news websites, and social media. Journalists skilled in **multimedia storytelling** are in high demand as they create content using videos, podcasts, and infographics.",
+        "डिजिटल पत्रकारिता एक उभरता हुआ क्षेत्र है, जहाँ ऑनलाइन प्लेटफार्म जैसे ब्लॉग, समाचार वेबसाइट, और सोशल मीडिया के लिए सामग्री तैयार की जाती है। **मल्टीमीडिया कहानी कहने** में कुशल पत्रकारों की मांग बढ़ रही है, क्योंकि वे वीडियो, पॉडकास्ट, और इन्फोग्राफिक्स के माध्यम से सामग्री बनाते हैं।"
+      ]
+    },
+    {
+      "tag": "mechanical_engineering",
+      "patterns": [
+        "Tell me about mechanical engineering",
+        "What is mechanical engineering?",
+        "Mechanical engineering overview",
+        "What does a mechanical engineer do?",
+        "What are the key subjects in mechanical engineering?",
+        "How long does it take to study mechanical engineering?",
+        "What skills are required for mechanical engineering?",
+        "What industries hire mechanical engineers?",
+        "What are the career prospects in mechanical engineering?",
+        "Can you explain the importance of mechanical engineering?",
+        "What are the challenges faced by mechanical engineers?",
+        "What tools do mechanical engineers use?",
+        "Is mechanical engineering a good career choice?",
+        "What are the future trends in mechanical engineering?"
+      ],
+      "responses": [
+        "Mechanical engineering involves designing and manufacturing mechanical systems, from engines to machines. It has applications in automotive, aerospace, and energy industries.",
+        "Mechanical engineering is a branch of engineering that focuses on the design, analysis, and manufacturing of mechanical systems. It plays a vital role in many industries, including automotive, aerospace, and robotics.",
+        "As a mechanical engineer, you will work on a variety of projects, such as developing new products, improving existing technologies, and ensuring systems operate efficiently.",
+        "Key subjects in mechanical engineering include thermodynamics, fluid mechanics, materials science, structural analysis, and dynamics. Understanding these subjects is crucial for success in the field.",
+        "A typical mechanical engineering degree takes about four years to complete, but some students may pursue further studies or specialized training.",
+        "Mechanical engineers need strong analytical skills, creativity, and proficiency in computer-aided design (CAD) software. Problem-solving skills and teamwork are also essential.",
+        "Industries that hire mechanical engineers include automotive, aerospace, manufacturing, energy, and robotics. Many mechanical engineers also work in research and development.",
+        "The career prospects for mechanical engineers are strong, with many opportunities for growth and advancement in various sectors. The demand for skilled engineers continues to rise.",
+        "Mechanical engineering is essential for developing new technologies and improving existing ones, which helps drive innovation and efficiency in many industries.",
+        "Some challenges faced by mechanical engineers include staying updated with rapidly changing technology, meeting safety and regulatory standards, and working on complex projects under tight deadlines.",
+        "Mechanical engineers use a variety of tools and software, including CAD programs, simulation software, and analytical tools, to design and test systems and components.",
+        "Mechanical engineering can be a rewarding career choice, offering competitive salaries, diverse job opportunities, and the chance to work on innovative projects that make a difference.",
+        "Future trends in mechanical engineering include the integration of renewable energy technologies, advancements in automation and robotics, and the increasing importance of sustainability in design and manufacturing.",
+        "Overall, mechanical engineering offers a wide range of opportunities for creative and analytical thinkers who enjoy solving complex problems."
+      ]
+    },
+    {
+      "tag": "electronics_engineering",
+      "patterns": [
+        "Tell me about electronics engineering",
+        "What is electronics engineering?",
+        "Electronics engineering overview",
+        "What does an electronics engineer do?",
+        "What are the key subjects in electronics engineering?",
+        "How long does it take to study electronics engineering?",
+        "What skills are required for electronics engineering?",
+        "What industries hire electronics engineers?",
+        "What are the career prospects in electronics engineering?",
+        "Can you explain the importance of electronics engineering?",
+        "What are the challenges faced by electronics engineers?",
+        "What tools do electronics engineers use?",
+        "Is electronics engineering a good career choice?",
+        "What are the future trends in electronics engineering?",
+        "What are the differences between electronics and electrical engineering?",
+        "Can you explain the role of electronics in everyday life?",
+        "What types of projects do electronics engineers typically work on?",
+        "How does electronics engineering impact modern technology?",
+        "What is embedded systems engineering?"
+      ],
+      "responses": [
+        "Electronics engineering focuses on designing and developing electronic devices, circuits, and systems. It has broad applications in industries like telecommunications, automation, and consumer electronics.",
+        "Electronics engineering is a specialized field of engineering that deals with the study and application of electronic systems, including hardware and software development.",
+        "As an electronics engineer, you will work on projects related to circuit design, signal processing, and developing electronic components like semiconductors, sensors, and microcontrollers.",
+        "Key subjects in electronics engineering include circuit theory, digital electronics, microprocessor design, control systems, and telecommunications.",
+        "A typical electronics engineering degree takes about four years to complete, though some students may opt for additional studies in specialized areas.",
+        "Electronics engineers need strong analytical skills, problem-solving abilities, and a solid understanding of mathematics and physics. Proficiency in programming languages and design software is also beneficial.",
+        "Industries that hire electronics engineers include telecommunications, consumer electronics, aerospace, automotive, and medical technology.",
+        "The career prospects for electronics engineers are promising, with a growing demand for skilled professionals in various sectors, particularly in tech and innovation.",
+        "Electronics engineering plays a critical role in the development of modern technology, enabling advancements in communication, automation, and entertainment.",
+        "Some challenges faced by electronics engineers include keeping up with rapid technological advancements, managing complex projects, and ensuring compliance with regulatory standards.",
+        "Electronics engineers use various tools and software, including circuit simulation software, design software like CAD, and programming environments for embedded systems.",
+        "Electronics engineering is a rewarding career choice, offering diverse job opportunities, competitive salaries, and the chance to work on innovative technologies.",
+        "Future trends in electronics engineering include the rise of Internet of Things (IoT) devices, advancements in renewable energy technologies, and the development of smart electronics.",
+        "Electronics engineering differs from electrical engineering in that it focuses more on smaller electronic components and systems, while electrical engineering deals with larger power systems and electrical infrastructure.",
+        "Electronics is integral to everyday life, found in devices such as smartphones, computers, and household appliances, enhancing functionality and convenience.",
+        "Electronics engineers typically work on projects related to designing consumer electronics, communication systems, and embedded systems for various applications.",
+        "Electronics engineering significantly impacts modern technology, driving innovations in telecommunications, automation, and smart technologies.",
+        "Embedded systems engineering is a subfield of electronics engineering that involves designing systems where hardware and software work together, such as in automotive control systems and smart appliances."
+      ]
+    },
+    {
+      "tag": "computer_science_engineering",
+      "patterns": [
+        "Tell me about computer science engineering",
+        "What is computer science engineering?",
+        "Computer science engineering overview",
+        "What does a computer science engineer do?",
+        "What are the key subjects in computer science engineering?",
+        "How long does it take to study computer science engineering?",
+        "What skills are required for computer science engineering?",
+        "What industries hire computer science engineers?",
+        "What are the career prospects in computer science engineering?",
+        "Can you explain the importance of computer science engineering?",
+        "What are the challenges faced by computer science engineers?",
+        "What tools do computer science engineers use?",
+        "Is computer science engineering a good career choice?",
+        "What are the future trends in computer science engineering?",
+        "What programming languages should I learn for computer science?",
+        "Can you explain the role of algorithms in computer science?",
+        "What is software development lifecycle?",
+        "How does computer science engineering contribute to innovation?",
+        "What are the applications of artificial intelligence in computer science?"
+      ],
+      "responses": [
+        "Computer Science Engineering involves the study of algorithms, software, and systems. It covers everything from coding to artificial intelligence, offering diverse opportunities in tech.",
+        "Computer Science Engineering is a branch of engineering focused on the development and application of computer systems and software. It integrates principles of computer science and engineering.",
+        "As a computer science engineer, you will design and develop software applications, work on system architecture, and may also be involved in research and development of new technologies.",
+        "Key subjects in computer science engineering include programming, data structures, algorithms, operating systems, databases, and software engineering.",
+        "A typical computer science engineering degree takes about four years to complete, although students may pursue advanced degrees or specialized certifications afterward.",
+        "Computer science engineers need strong analytical and problem-solving skills, as well as proficiency in various programming languages, software development methodologies, and teamwork.",
+        "Industries that hire computer science engineers include software development, finance, healthcare, education, and technology startups, among others.",
+        "The career prospects in computer science engineering are excellent, with high demand for skilled professionals in areas such as software development, cybersecurity, and data analysis.",
+        "Computer science engineering is crucial for technological advancement, driving innovations that improve efficiency, enhance communication, and create new digital solutions.",
+        "Challenges faced by computer science engineers include rapidly evolving technologies, managing large and complex systems, and ensuring software security and compliance.",
+        "Computer science engineers use various tools, including Integrated Development Environments (IDEs), version control systems like Git, and project management tools to streamline their work.",
+        "Computer science engineering is a rewarding career choice, offering competitive salaries, a wide range of job opportunities, and the chance to work on cutting-edge technologies.",
+        "Future trends in computer science engineering include advancements in artificial intelligence, machine learning, blockchain technology, and the growing importance of cybersecurity.",
+        "Familiarity with programming languages like Python, Java, C++, and JavaScript is essential for computer science engineers, as these are widely used in software development.",
+        "Algorithms are fundamental to computer science, as they provide a systematic approach to solving problems and processing data efficiently, which is critical in software development.",
+        "The software development lifecycle (SDLC) is a process used to design, develop, test, and deploy software applications. It includes phases like planning, design, implementation, testing, and maintenance.",
+        "Computer science engineering contributes to innovation by developing new software solutions, enhancing existing technologies, and creating applications that solve real-world problems.",
+        "Artificial intelligence has numerous applications in computer science, including natural language processing, machine learning, computer vision, and autonomous systems, revolutionizing industries and everyday life."
+      ]
+    },
+    {
+      "tag": "civil_engineering",
+      "patterns": [
+        "Tell me about civil engineering",
+        "What is civil engineering?",
+        "Civil engineering overview",
+        "What does a civil engineer do?",
+        "What are the key subjects in civil engineering?",
+        "How long does it take to study civil engineering?",
+        "What skills are required for civil engineering?",
+        "What industries hire civil engineers?",
+        "What are the career prospects in civil engineering?",
+        "Can you explain the importance of civil engineering?",
+        "What are the challenges faced by civil engineers?",
+        "What tools do civil engineers use?",
+        "Is civil engineering a good career choice?",
+        "What are the future trends in civil engineering?",
+        "What types of projects do civil engineers work on?",
+        "How does civil engineering impact society?",
+        "What are the differences between civil engineering and other engineering fields?",
+        "What role does sustainability play in civil engineering?",
+        "What are some notable civil engineering projects?"
+      ],
+      "responses": [
+        "Civil engineering focuses on designing and constructing infrastructure, such as bridges, roads, and buildings. It's a field that contributes to public and private sector developments.",
+        "Civil engineering is a branch of engineering that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works like roads and buildings.",
+        "As a civil engineer, you will be involved in planning, designing, and overseeing construction projects, ensuring they meet safety and environmental regulations.",
+        "Key subjects in civil engineering include structural analysis, geotechnical engineering, transportation engineering, environmental engineering, and construction management.",
+        "A typical civil engineering degree takes about four years to complete, followed by a period of practical training or internships before becoming a licensed professional engineer.",
+        "Civil engineers need strong analytical and problem-solving skills, as well as knowledge in mathematics, physics, and materials science. Communication and teamwork are also essential.",
+        "Industries that hire civil engineers include construction, transportation, environmental services, government agencies, and consulting firms.",
+        "Career prospects in civil engineering are strong, with opportunities for growth in project management, structural design, and sustainable development roles.",
+        "Civil engineering is vital for developing infrastructure that supports economic growth and improves quality of life, addressing issues like urbanization and environmental sustainability.",
+        "Challenges faced by civil engineers include managing project budgets, ensuring safety and compliance with regulations, and adapting to environmental and societal changes.",
+        "Civil engineers use various tools and software, including computer-aided design (CAD) programs, project management software, and simulation tools to design and analyze projects.",
+        "Civil engineering can be a rewarding career choice, offering diverse job opportunities, competitive salaries, and the chance to work on impactful projects that shape communities.",
+        "Future trends in civil engineering include the adoption of green building practices, advancements in construction technology, and a focus on sustainable infrastructure solutions.",
+        "Civil engineers work on a wide range of projects, including highways, bridges, dams, airports, and urban development projects, which require careful planning and execution.",
+        "Civil engineering significantly impacts society by creating infrastructure that enhances transportation, housing, and public utilities, contributing to the overall development of communities.",
+        "Civil engineering differs from other engineering fields in its focus on infrastructure and construction, while other fields may emphasize electronics, mechanics, or software development.",
+        "Sustainability plays a critical role in civil engineering, as engineers are increasingly tasked with designing projects that minimize environmental impact and promote resource efficiency.",
+        "Notable civil engineering projects include the construction of the Panama Canal, the Burj Khalifa, the Golden Gate Bridge, and various modern skyscrapers that showcase innovative design and engineering techniques."
+      ]
+    },
+    {
+      "tag": "detailed_mechanical_engineering",
+      "patterns": [
+        "Can you give more details about mechanical engineering?",
+        "Explain mechanical engineering in detail",
+        "What does mechanical engineering cover?",
+        "What are the core areas of mechanical engineering?",
+        "What industries hire mechanical engineers?",
+        "How does mechanical engineering impact the modern world?",
+        "What are the career prospects in mechanical engineering?",
+        "What tools do mechanical engineers use?",
+        "What are the challenges in mechanical engineering?",
+        "What are some future trends in mechanical engineering?"
+      ],
+      "responses": [
+        "Mechanical engineering is a vast and diverse field that focuses on the application of physics and engineering principles to design, analyze, manufacture, and maintain mechanical systems. Key areas of study include mechanics, fluid dynamics, thermodynamics, and materials science. Mechanical engineers work on a variety of projects, such as designing engines, robotics, manufacturing processes, and energy systems. Their work spans industries like automotive, aerospace, energy, robotics, and even biomedical devices. The field's broad nature provides opportunities in both technical and managerial roles.",
+        "Mechanical engineering involves the use of analytical methods to solve problems related to the design and function of mechanical systems. Core areas include kinematics, fluid mechanics, heat transfer, and mechanical design. Mechanical engineers develop components and systems for everything from vehicles and aircraft to industrial equipment and renewable energy systems. They utilize tools such as CAD (Computer-Aided Design) software, FEA (Finite Element Analysis), and CNC machining in the design and production process. Their work is critical to innovations in robotics, energy efficiency, and manufacturing technology.",
+        "Mechanical engineers are involved in nearly every aspect of modern technology. Their expertise in material science, thermodynamics, and structural analysis allows them to create mechanical components that are reliable and efficient. They work in a variety of industries, including automotive, aerospace, manufacturing, and energy, where they help develop systems like engines, turbines, HVAC systems, and automation equipment. With the rise of smart technologies, mechanical engineering is evolving to include mechatronics, robotics, and additive manufacturing, offering exciting new opportunities for innovation."
+      ]
+    },
+    {
+      "tag": "detailed_electronics_engineering",
+      "patterns": [
+        "Can you give more details about electronics engineering?",
+        "Explain electronics engineering in detail",
+        "What does electronics engineering cover?",
+        "What industries hire electronics engineers?",
+        "What skills are required for electronics engineering?",
+        "What are the core subjects in electronics engineering?",
+        "What tools do electronics engineers use?",
+        "What are the career prospects in electronics engineering?",
+        "What are the challenges faced by electronics engineers?",
+        "What are some future trends in electronics engineering?"
+      ],
+      "responses": [
+        "Electronics engineering is a field that focuses on the design, development, and testing of electronic devices, circuits, and systems. It covers a wide range of topics, including analog and digital circuit design, microprocessors, communication systems, signal processing, and control systems. Electronics engineers work on technologies that are essential to modern life, such as smartphones, computers, and medical devices. They also develop systems for telecommunications, satellite communications, and industrial automation. The field requires a strong foundation in physics and mathematics, as well as problem-solving and critical-thinking skills.",
+        "In electronics engineering, core subjects include digital electronics, analog circuits, microprocessors, signal processing, and control systems. The field combines theoretical knowledge with practical applications in designing and building electronic hardware. Electronics engineers use tools like SPICE for circuit simulation, MATLAB for signal processing, and CAD software for PCB (Printed Circuit Board) design. Their work ranges from developing small, integrated circuits to complex systems like radar and communication networks. Electronics engineers play a crucial role in industries like telecommunications, aerospace, healthcare, and consumer electronics.",
+        "Electronics engineers are highly sought after in industries that require expertise in circuit design, system integration, and troubleshooting. They often work in sectors such as telecommunications, automotive, aerospace, defense, and healthcare technology. They help design everything from smartphones and wearable devices to advanced medical imaging equipment. Additionally, they contribute to the development of IoT (Internet of Things) devices, smart grids, and autonomous vehicles. The ability to innovate and keep up with rapid technological advancements is crucial in this field, and electronics engineers are at the forefront of technological progress.",
+        "The tools used by electronics engineers are varied and specialized. For circuit design and simulation, software like SPICE (Simulation Program with Integrated Circuit Emphasis) is widely used. For digital design, engineers often rely on hardware description languages like VHDL and Verilog. PCB design software such as Altium Designer or Eagle is essential for laying out and designing electronic circuits. Additionally, electronics engineers use oscilloscopes, multimeters, and logic analyzers to test and debug circuits. Advanced skills in programming languages like C and Python are also valuable for developing embedded systems and working with microcontrollers.",
+        "The future of electronics engineering is closely tied to the rapid advancements in technology. Emerging fields such as nanotechnology, flexible electronics, and quantum computing are opening new frontiers. As the world becomes more interconnected through IoT, electronics engineers will be critical in developing the infrastructure and devices that support smart homes, cities, and industries. Another trend is in renewable energy systems, where electronics engineers design more efficient power conversion and control systems. In healthcare, wearable technologies, advanced diagnostic equipment, and telemedicine rely heavily on innovations from electronics engineering."
+      ]
+    },
+    {
+      "tag": "detailed_computer_science_engineering",
+      "patterns": [
+        "Can you give more details about computer science engineering?",
+        "Explain computer science engineering in detail",
+        "What does computer science engineering cover?",
+        "What skills are needed for computer science engineering?",
+        "What are the core subjects in computer science engineering?",
+        "What industries hire computer science engineers?",
+        "What programming languages are used in computer science?",
+        "What career opportunities are there in computer science engineering?",
+        "How is AI related to computer science engineering?",
+        "What tools do computer science engineers use?",
+        "What are the future trends in computer science engineering?"
+      ],
+      "responses": [
+        "Computer Science Engineering is a broad discipline that focuses on both the hardware and software aspects of computer systems. Core subjects include algorithms, data structures, operating systems, databases, and networking. Students also learn multiple programming languages such as C++, Java, and Python. A key area of study in Computer Science is algorithm design and computational efficiency, which helps solve complex problems. This field provides a foundation for careers in areas like software development, data science, cybersecurity, and machine learning. With the growing demand for tech innovation, computer science engineers play a crucial role in shaping future technologies.",
+        "Computer Science Engineering encompasses the theoretical foundations of information and computation, along with practical techniques for the implementation and application of these principles in software and hardware systems. The field is vast and includes key areas such as artificial intelligence, cybersecurity, cloud computing, and data analysis. Computer science engineers develop software applications, optimize computing processes, and build secure systems for a wide range of industries like finance, healthcare, education, and entertainment. Tools like version control systems (e.g., Git), integrated development environments (IDEs), and cloud platforms (e.g., AWS, Google Cloud) are essential in this field.",
+        "In Computer Science Engineering, students learn how computers work at both a hardware and software level. The curriculum covers topics such as programming languages (Python, C, Java), data structures, algorithms, operating systems, computer architecture, and software engineering. Engineers in this field often specialize in areas like artificial intelligence, machine learning, web development, or big data analytics. The versatility of this degree allows graduates to work in a variety of industries, including tech companies, finance, healthcare, and government. They also play a significant role in the development of cutting-edge technologies like blockchain, augmented reality, and quantum computing.",
+        "Computer Science Engineering integrates a variety of domains such as software development, data science, and artificial intelligence. One of the key skills is mastering programming languages such as Java, Python, and JavaScript, along with understanding algorithms and data structures to build efficient, scalable applications. Additionally, knowledge in database management (SQL, NoSQL), cloud computing, and cybersecurity is increasingly important. Computer science engineers can work in virtually every industry, contributing to areas like autonomous systems, IoT (Internet of Things), and high-performance computing. Companies such as Google, Microsoft, and IBM regularly hire computer science graduates.",
+        "The future of Computer Science Engineering is closely tied to advancements in artificial intelligence (AI), machine learning (ML), and data science. As industries across the globe rely more on automation and data-driven decisions, computer science engineers are at the forefront of developing these technologies. In the coming years, trends like quantum computing, blockchain technology, and edge computing are expected to revolutionize the field. Engineers will also need to focus on creating more sustainable, energy-efficient computing technologies. The versatility of the discipline allows for numerous career paths in software development, research, entrepreneurship, and even academia."
+      ]
+    },
+    {
+      "tag": "detailed_civil_engineering",
+      "patterns": [
+        "Can you give more details about civil engineering?",
+        "Explain civil engineering in detail",
+        "What does civil engineering cover?",
+        "What are the career opportunities in civil engineering?",
+        "What skills are needed for civil engineering?",
+        "What types of projects do civil engineers work on?",
+        "What industries hire civil engineers?",
+        "What software do civil engineers use?",
+        "What are the key challenges in civil engineering?",
+        "What are the core subjects in civil engineering?"
+      ],
+      "responses": [
+        "Civil Engineering is a diverse field that focuses on the design, construction, and maintenance of infrastructure such as roads, bridges, tunnels, dams, and buildings. It involves applying principles of physics, mathematics, geology, and material science to create safe, sustainable structures. Civil engineers must ensure that projects are built to withstand natural forces like earthquakes and floods. They often collaborate with architects, environmental scientists, and urban planners to meet project requirements. Civil engineers can specialize in areas such as structural engineering, transportation engineering, and environmental engineering.",
+        "Civil engineers are responsible for designing and managing infrastructure projects that impact daily life, from highways to water supply systems. The field covers multiple branches, including structural, geotechnical, environmental, and transportation engineering. Civil engineers must understand the mechanical properties of materials, soil mechanics, and hydrology to ensure that their designs are stable and sustainable. They also use modern tools like CAD (Computer-Aided Design) software and GIS (Geographic Information Systems) to plan and simulate structures before construction. Civil engineering is a highly collaborative profession, often requiring coordination between government agencies, private contractors, and other engineers.",
+        "Civil Engineering encompasses several specialized fields such as structural engineering, which deals with the design of large buildings and bridges; geotechnical engineering, which focuses on foundations and soil mechanics; and transportation engineering, which involves designing roads, highways, and traffic systems. Civil engineers also work on water resources projects, such as dams and drainage systems, ensuring that these structures are sustainable and efficient. The field is evolving with new technologies like 3D modeling, BIM (Building Information Modeling), and sustainable construction practices aimed at reducing environmental impact. The demand for civil engineers is strong in both public and private sectors, including urban planning, construction companies, and government infrastructure projects."
+      ]
+    },
+    {
+      "tag": "bsc_courses",
+      "patterns": [
+        "bsc",
+        "What are the BSc courses after math?",
+        "Tell me about BSc courses after studying math",
+        "What are the BSc options for math students?",
+        "What can I do with a BSc after studying math?",
+        "List BSc courses for math students",
+        "What are the available BSc courses after class 12 math?",
+        "Which BSc courses can I pursue after math?",
+        "What are the science courses after math?",
+        "What BSc degrees can I choose after math?",
+        "BSc degree options after studying math",
+        "Can I pursue BSc after math?",
+        "What are BSc fields for math students?"
+      ],
+      "responses": [
+        "After completing your studies in math, you can pursue BSc degrees in a variety of fields. Some common BSc courses include:\n1. **BSc in Mathematics**: A deep dive into advanced mathematical theories and applications, preparing you for careers in research, data science, or teaching.\n2. **BSc in Physics**: This course focuses on the principles of physics, enabling careers in research, engineering, and applied sciences.\n3. **BSc in Computer Science**: Ideal for students interested in technology, this course covers software development, algorithms, and computing systems.",
+        "For students who have studied math, there are several BSc courses you can pursue:\n1. **BSc in Statistics**: Specializes in data analysis, probability, and statistical theories, useful for careers in finance, insurance, and analytics.\n2. **BSc in Economics**: Combines math and economic theory to prepare for roles in finance, economics research, and business analysis.\n3. **BSc in Chemistry**: This course covers the structure and behavior of chemicals, preparing you for industries like pharmaceuticals, research, and environmental science.",
+        "Here are some BSc courses you can pursue after studying math:\n1. **BSc in Data Science**: Focuses on extracting knowledge from data using analytical methods and tools, highly valued in sectors like tech, finance, and healthcare.\n2. **BSc in Actuarial Science**: Combines mathematics, statistics, and finance to assess risk in industries like insurance and investment.\n3. **BSc in Information Technology**: Provides knowledge in IT infrastructure, software development, and networking, preparing you for roles in tech and system management.",
+        "After studying math, these are some BSc options available:\n1. **BSc in Mathematics and Computing**: Combines advanced math with computer science principles, suitable for roles in programming, data analytics, and software development.\n2. **BSc in Biotechnology**: A blend of biology and technology, focusing on innovations in medicine, agriculture, and environmental conservation.\n3. **BSc in Environmental Science**: This course focuses on solving environmental problems through scientific principles, leading to careers in conservation, research, and environmental consulting.",
+        "You have several choices for BSc courses after studying math:\n1. **BSc in Mathematics**: A rigorous study of math, preparing for careers in academia, data science, or research.\n2. **BSc in Electronics**: This course combines electrical engineering and applied electronics, ideal for roles in tech, consumer electronics, and research.\n3. **BSc in Geology**: Focuses on Earth’s physical structures and processes, with career opportunities in natural resource exploration and environmental management.",
+        "Here’s a list of BSc courses you can pursue after math:\n1. **BSc in Applied Mathematics**: Focuses on practical applications of math in science, engineering, and industry, leading to roles in research and technical consultancy.\n2. **BSc in Astronomy**: A fascinating course that delves into celestial bodies and space, with careers in space research and astrophysics.\n3. **BSc in Operations Research**: Utilizes mathematical methods to solve complex organizational problems, useful in logistics, supply chain, and business analysis.",
+        "After studying math, these are your BSc options:\n1. **BSc in Mathematics and Statistics**: A combined course that prepares you for roles in data analysis, finance, and research.\n2. **BSc in Industrial Mathematics**: Applies math to solve engineering and industrial problems, with career opportunities in manufacturing, logistics, and research.\n3. **BSc in Physics and Mathematics**: A dual degree that strengthens your foundation in both fields, suitable for careers in research, engineering, and applied science."
+      ]
+    },
+    {
+      "tag": "bsc_entrance_exams",
+      "patterns": [
+        "entrance for bsc",
+        "What are the entrance exams for BSc?",
+        "Tell me about entrance exams for BSc courses",
+        "What entrance tests do I need for BSc?",
+        "BSc entrance exams after 12th",
+        "Which entrance exams are required for BSc?",
+        "BSc entrance tests after math",
+        "Common entrance exams for BSc in India",
+        "BSc exams after 12th",
+        "Which exams do I need for BSc?",
+        "Entrance exams for BSc degrees in India"
+      ],
+      "responses": [
+        "Several universities and institutes conduct their own entrance exams for BSc courses, but some of the most common and important exams include:\n1. **DUET (Delhi University Entrance Test)**: For admission to BSc courses in Delhi University.\n2. **IISER Aptitude Test**: Required for admission to Indian Institutes of Science Education and Research.\n3. **JEE (Joint Entrance Exam)**: While primarily for engineering, it's also accepted by IISc Bangalore for BSc courses. Always check the specific exam requirements for your desired university.",
+        "BSc entrance exams vary across universities, but some key exams include:\n1. **CUET (Common University Entrance Test)**: Accepted by several central and state universities in India for BSc admissions.\n2. **IISER Aptitude Test**: Conducted for admissions into IISER institutions.\n3. **NEST (National Entrance Screening Test)**: For admission to the National Institute of Science Education and Research (NISER) and the University of Mumbai's Department of Atomic Energy. Make sure to verify if your chosen university conducts its own exam.",
+        "For BSc admissions, different universities have their own entrance exams. Some notable exams include:\n1. **IPU CET (Indraprastha University Common Entrance Test)**: Conducted by Guru Gobind Singh Indraprastha University for various BSc programs.\n2. **MHT CET (Maharashtra Common Entrance Test)**: Accepted by colleges in Maharashtra for BSc admissions.\n3. **BITSAT (Birla Institute of Technology and Science Admission Test)**: While primarily for engineering, it also covers some science programs. Always check the entrance requirements for the university you're targeting.",
+        "Many universities conduct their own entrance exams, but common national-level BSc entrance exams include:\n1. **JEE Main**: Accepted by the Indian Institute of Science (IISc) for BSc programs.\n2. **NEST**: For students aiming for NISER or UM-DAE CEBS.\n3. **CUET**: The Common University Entrance Test is accepted by many central universities across India. Check if your preferred university requires its own entrance exam.",
+        "BSc admissions are generally based on entrance exams, with some of the most recognized ones being:\n1. **DUET**: For BSc admissions in Delhi University.\n2. **IISER Aptitude Test**: For entry into IISER institutes across India.\n3. **State-level exams like MHT CET**: Used by universities and colleges within individual states. Always confirm whether your desired institution conducts its own entrance exam."
+      ]
+    },
+    {
+      "tag": "btech_entrance_exams",
+      "patterns": [
+        "entrance exams for BTech?",
+        "What are the entrance exams for BTech?",
+        "Tell me about entrance exams for BTech courses",
+        "What entrance tests do I need for BTech?",
+        "BTech entrance exams after 12th",
+        "Which entrance exams are required for engineering?",
+        "Engineering entrance tests after math",
+        "Common entrance exams for BTech in India",
+        "BTech exams after 12th",
+        "Which exams do I need for BTech?",
+        "Entrance exams for engineering degrees in India"
+      ],
+      "responses": [
+        "For BTech admissions, several national and state-level entrance exams are conducted across India. Some of the most common ones are:\n1. **JEE Main**: The most popular exam for BTech courses, accepted by NITs, IIITs, and many other engineering institutes.\n2. **JEE Advanced**: For admission to the prestigious Indian Institutes of Technology (IITs).\n3. **BITSAT**: Conducted by BITS Pilani for its BTech programs. Many private universities also conduct their own entrance exams for engineering.",
+        "If you're aiming for BTech, some of the key entrance exams include:\n1. **JEE Main**: Required for admission to NITs, IIITs, and other government and private institutes.\n2. **JEE Advanced**: This is the second stage of JEE for IIT admissions.\n3. **VITEEE (VIT Engineering Entrance Exam)**: Conducted by VIT University for BTech programs. Always verify if the university you are applying to conducts its own exam.",
+        "BTech entrance exams in India are varied, with some of the most important being:\n1. **JEE Main**: Conducted by NTA for admission to engineering institutes across India.\n2. **SRMJEEE**: Conducted by SRM University for its engineering courses.\n3. **MHT CET**: A state-level entrance exam conducted by Maharashtra for BTech admissions in state colleges. Make sure to check if your chosen university has its own exam.",
+        "Several common entrance exams for BTech courses in India include:\n1. **COMEDK UGET**: For engineering admissions in Karnataka.\n2. **WBJEE (West Bengal Joint Entrance Exam)**: Conducted by West Bengal for BTech admissions in the state.\n3. **JEE Main**: The most widely accepted exam for BTech courses. Always confirm the specific requirements for your desired institution as many private universities hold their own exams.",
+        "If you're looking to pursue BTech, some key entrance exams are:\n1. **JEE Main**: Required for most government and private engineering colleges.\n2. **KIITEE**: Conducted by KIIT University for its engineering courses.\n3. **UPSEE**: Conducted by Dr. APJ Abdul Kalam Technical University for colleges in Uttar Pradesh. Many universities have their own entrance exams, so check accordingly."
+      ]
+    },
+    {
+      "tag": "top_engineering_colleges",
+      "patterns": [
+        "engineering colleges",
+        "What are the top engineering colleges in India?",
+        "List the best colleges for BTech",
+        "Which are the best institutes for engineering?",
+        "Top colleges for engineering in India",
+        "Best engineering universities",
+        "Top 10 engineering institutes",
+        "Best BTech colleges in India",
+        "Premier engineering institutes in India",
+        "Top universities for engineering in India"
+      ],
+      "responses": [
+        "Here are some of the top engineering institutes in India:\n1. **IIT Bombay**\n2. **IIT Delhi**\n3. **IIT Madras**\n4. **IIT Kanpur**\n5. **IIT Kharagpur**. These are some of the best institutes for engineering, offering a wide range of specializations in BTech and MTech programs.",
+        "The top engineering colleges in India include:\n1. **IIT Bombay**\n2. **IIT Delhi**\n3. **IIT Madras**\n4. **IIT Kanpur**\n5. **IIT Kharagpur**\n6. **IIT Roorkee**. These institutes are known for their excellent faculty, research facilities, and placement opportunities.",
+        "Some of the best engineering institutes in India are:\n1. **IIT Bombay**\n2. **IIT Delhi**\n3. **IIT Madras**\n4. **IIT Kanpur**\n5. **IIT Kharagpur**\n6. **IIT Roorkee**\n7. **IIT Guwahati**. These IITs consistently rank among the top engineering institutes in the country.",
+        "For the best engineering programs in India, consider these top-ranked institutes:\n1. **IIT Bombay**\n2. **IIT Delhi**\n3. **IIT Madras**\n4. **IIT Kanpur**\n5. **IIT Kharagpur**. Other top choices include **IIT Roorkee** and **IIT Guwahati**.",
+        "If you're looking for the top engineering colleges, here are some of the best options:\n1. **IIT Bombay**\n2. **IIT Delhi**\n3. **IIT Madras**\n4. **IIT Kanpur**\n5. **IIT Kharagpur**. These institutes consistently rank as the best engineering colleges in India, offering excellent academic programs and placement opportunities.",
+        "In addition to the IITs, other prestigious engineering institutes include:\n1. **NIT Trichy**\n2. **NIT Surathkal**\n3. **NIT Warangal**\n4. **BITS Pilani**\n5. **VIT Vellore**. These institutions offer excellent engineering courses and have strong placement records.",
+        "Some top engineering colleges outside the IITs include:\n1. **BITS Pilani**\n2. **NIT Trichy**\n3. **NIT Surathkal**\n4. **NIT Warangal**\n5. **VIT Vellore**. These institutes offer highly regarded engineering programs across various disciplines.",
+        "Apart from the IITs, other leading engineering institutes in India are:\n1. **BITS Pilani**\n2. **NIT Trichy**\n3. **NIT Surathkal**\n4. **NIT Warangal**\n5. **IIIT Hyderabad**. These institutes have excellent academic reputations and industry connections for placements.",
+        "The top private and public engineering colleges in India include:\n1. **BITS Pilani**\n2. **VIT Vellore**\n3. **SRM University**\n4. **NIT Trichy**\n5. **IIIT Hyderabad**. These colleges provide high-quality education and research opportunities in engineering fields.",
+        "Other than IITs, consider these top engineering colleges:\n1. **BITS Pilani**\n2. **NIT Trichy**\n3. **IIIT Hyderabad**\n4. **VIT Vellore**\n5. **SRM University**. These institutions offer excellent academic programs and placement opportunities in engineering."
+      ]
+    },
+    {
+      "tag": "SRM_University",
+      "patterns": [
+        "What about SRM University?",
+        "Tell me about SRM University.",
+        "What courses does SRM University offer?",
+        "What is the fee structure of SRM University?",
+        "Which entrance exam is required for SRM University?"
+      ],
+      "responses": [
+        "SRM University, established in 1985, is a private university known for its engineering programs. It offers:\n- B.Tech in various disciplines including Computer Science, Mechanical, Civil, and Electronics Engineering.\n- M.Tech and PhD programs across several fields.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.0 lakhs per year.\n- M.Tech: Approximately ₹1.5 lakhs per year.\n\n**Entrance Exam:**\n- SRMJEEE for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "VIT_Vellore",
+      "patterns": [
+        "What about VIT Vellore?",
+        "Tell me about VIT Vellore.",
+        "What courses does VIT Vellore offer?",
+        "What is the fee structure of VIT Vellore?",
+        "Which entrance exam is required for VIT Vellore?"
+      ],
+      "responses": [
+        "VIT Vellore, established in 1984, is a well-known private university in India. It offers:\n- B.Tech in various branches like Computer Science, Mechanical, Electrical, Civil, and more.\n- M.Tech and PhD programs across various fields.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹1.7 lakhs per year.\n- M.Tech: Approximately ₹1.0 lakhs per year.\n\n**Entrance Exam:**\n- VITEEE for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "IIIT_Hyderabad",
+      "patterns": [
+        "What about IIIT Hyderabad?",
+        "Tell me about IIIT Hyderabad.",
+        "What courses does IIIT Hyderabad offer?",
+        "What is the fee structure of IIIT Hyderabad?",
+        "Which entrance exam is required for IIIT Hyderabad?"
+      ],
+      "responses": [
+        "IIIT Hyderabad, founded in 1998, is known for its focus on information technology. It offers:\n- B.Tech in Computer Science and Engineering.\n- M.Tech and PhD programs in various specializations related to IT.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.0 lakhs per year.\n- M.Tech: Approximately ₹1.5 lakhs per year.\n\n**Entrance Exam:**\n- UGEE for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "NIT_Warangal",
+      "patterns": [
+        "What about NIT Warangal?",
+        "Tell me about NIT Warangal.",
+        "What courses does NIT Warangal offer?",
+        "What is the fee structure of NIT Warangal?",
+        "Which entrance exam is required for NIT Warangal?"
+      ],
+      "responses": [
+        "NIT Warangal, established in 1959, is known for its strong academic programs. It offers:\n- B.Tech in branches like Computer Science, Mechanical, Electrical, Civil, and Electronics Engineering.\n- M.Tech and PhD programs in various disciplines.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹1.5 lakhs per year.\n- M.Tech: Approximately ₹1.2 lakhs per year.\n\n**Entrance Exam:**\n- JEE Main for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "NIT_Surathkal",
+      "patterns": [
+        "What about NIT Surathkal?",
+        "Tell me about NIT Surathkal.",
+        "What courses does NIT Surathkal offer?",
+        "What is the fee structure of NIT Surathkal?",
+        "Which entrance exam is required for NIT Surathkal?"
+      ],
+      "responses": [
+        "NIT Surathkal, founded in 1960, is another prestigious NIT in India. The institute offers:\n- B.Tech in Computer Science, Mechanical, Electrical, Civil, and more.\n- M.Tech and PhD programs in various fields.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹1.5 lakhs per year.\n- M.Tech: Approximately ₹1.2 lakhs per year.\n\n**Entrance Exam:**\n- JEE Main for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "NIT_Trichy",
+      "patterns": [
+        "What about NIT Trichy?",
+        "Tell me about NIT Trichy.",
+        "What courses does NIT Trichy offer?",
+        "What is the fee structure of NIT Trichy?",
+        "Which entrance exam is required for NIT Trichy?"
+      ],
+      "responses": [
+        "NIT Trichy, established in 1971, is one of the top NITs in India. It offers:\n- B.Tech in branches like Computer Science, Mechanical, Civil, and Electrical Engineering.\n- M.Tech and PhD programs in various disciplines.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹1.5 lakhs per year.\n- M.Tech: Approximately ₹1.2 lakhs per year.\n\n**Entrance Exam:**\n- JEE Main for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "BITS_Pilani",
+      "patterns": [
+        "What about BITS Pilani?",
+        "Tell me about BITS Pilani.",
+        "What courses does BITS Pilani offer?",
+        "What is the fee structure of BITS Pilani?",
+        "Which entrance exam is required for BITS Pilani?"
+      ],
+      "responses": [
+        "BITS Pilani, established in 1964, is a renowned private engineering institute. It offers:\n- B.E. in Computer Science, Mechanical, Electrical, Chemical, and Civil Engineering.\n- M.E. and PhD programs in various specializations.\n\n**Fee Structure:**\n- B.E.: Approximately ₹4.5 lakhs per year.\n- M.E.: Approximately ₹2.5 lakhs per year.\n\n**Entrance Exam:**\n- BITSAT for B.E.\n- GATE for M.E."
+      ]
+    },
+    {
+      "tag": "IIT_Guwahati",
+      "patterns": [
+        "What about IIT Guwahati?",
+        "Tell me about IIT Guwahati.",
+        "What courses does IIT Guwahati offer?",
+        "What is the fee structure of IIT Guwahati?",
+        "Which entrance exam is required for IIT Guwahati?"
+      ],
+      "responses": [
+        "IIT Guwahati, established in 1994, is known for its scenic campus and strong academic programs. The institute offers:\n- B.Tech in Computer Science, Mechanical, Civil, and Electronics Engineering, among others.\n- M.Tech and PhD programs across various fields.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.5 lakhs per year.\n- M.Tech: Approximately ₹1.4 lakhs per year.\n\n**Entrance Exam:**\n- JEE Advanced for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "IIT_Roorkee",
+      "patterns": [
+        "What about IIT Roorkee?",
+        "Tell me about IIT Roorkee.",
+        "What courses does IIT Roorkee offer?",
+        "What is the fee structure of IIT Roorkee?",
+        "Which entrance exam is required for IIT Roorkee?"
+      ],
+      "responses": [
+        "IIT Roorkee, founded in 1847, is one of the oldest engineering colleges in India. It offers:\n- B.Tech in several branches including Computer Science, Mechanical, Civil, and Electrical Engineering.\n- M.Tech and PhD programs in various disciplines.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.5 lakhs per year.\n- M.Tech: Approximately ₹1.5 lakhs per year.\n\n**Entrance Exam:**\n- JEE Advanced for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "IIT_Kharagpur",
+      "patterns": [
+        "What about IIT Kharagpur?",
+        "Tell me about IIT Kharagpur.",
+        "What courses does IIT Kharagpur offer?",
+        "What is the fee structure of IIT Kharagpur?",
+        "Which entrance exam is required for IIT Kharagpur?"
+      ],
+      "responses": [
+        "IIT Kharagpur, established in 1951, is the first IIT in India and offers:\n- B.Tech in various disciplines such as Computer Science, Electrical, Mechanical, Civil Engineering, etc.\n- M.Tech and PhD programs in numerous fields.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.5 lakhs per year.\n- M.Tech: Approximately ₹1.3 lakhs per year.\n\n**Entrance Exam:**\n- JEE Advanced for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "IIT_Kanpur",
+      "patterns": [
+        "What about IIT Kanpur?",
+        "Tell me about IIT Kanpur.",
+        "What courses does IIT Kanpur offer?",
+        "What is the fee structure of IIT Kanpur?",
+        "Which entrance exam is required for IIT Kanpur?"
+      ],
+      "responses": [
+        "IIT Kanpur, founded in 1959, is known for its strong emphasis on research and innovation. It offers:\n- B.Tech in branches such as Electrical, Computer Science, Mechanical, and Civil Engineering.\n- M.Tech and PhD programs across various fields.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.5 lakhs per year.\n- M.Tech: Approximately ₹1.4 lakhs per year.\n\n**Entrance Exam:**\n- JEE Advanced for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "IIT_Madras",
+      "patterns": [
+        "What about IIT Madras?",
+        "Tell me about IIT Madras.",
+        "What courses does IIT Madras offer?",
+        "What is the fee structure of IIT Madras?",
+        "Which entrance exam is required for IIT Madras?"
+      ],
+      "responses": [
+        "IIT Madras, established in 1959, is one of the top engineering colleges in India. The institute provides:\n- B.Tech in Computer Science, Civil, Mechanical, Electrical Engineering, and more.\n- M.Tech and PhD programs in various disciplines.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.5 lakhs per year.\n- M.Tech: Approximately ₹1.5 lakhs per year.\n\n**Entrance Exam:**\n- JEE Advanced for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "IIT_Delhi",
+      "patterns": [
+        "What about IIT Delhi?",
+        "Tell me about IIT Delhi.",
+        "What courses does IIT Delhi offer?",
+        "What is the fee structure of IIT Delhi?",
+        "Which entrance exam is required for IIT Delhi?"
+      ],
+      "responses": [
+        "IIT Delhi, founded in 1961, is renowned for its academic excellence and research. The institute offers:\n- B.Tech in various branches like Electrical, Mechanical, Civil, and Computer Science.\n- M.Tech, MBA, and PhD programs in diverse fields.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.5 lakhs per year.\n- M.Tech: Approximately ₹1.3 lakhs per year.\n\n**Entrance Exam:**\n- JEE Advanced for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "IIT_Bombay",
+      "patterns": [
+        "What about IIT Bombay?",
+        "Tell me about IIT Bombay.",
+        "What courses does IIT Bombay offer?",
+        "What is the fee structure of IIT Bombay?",
+        "Which entrance exam is required for IIT Bombay?"
+      ],
+      "responses": [
+        "IIT Bombay, established in 1958, is one of the premier engineering institutes in India. It offers various undergraduate and postgraduate programs, including:\n- B.Tech in Computer Science, Mechanical, Electrical, Civil Engineering, etc.\n- M.Tech in various specializations\n- PhD in Engineering, Sciences, and Humanities.\n\n**Fee Structure:**\n- B.Tech: Approximately ₹2.5 lakhs per year.\n- M.Tech: Approximately ₹1.5 lakhs per year.\n\n**Entrance Exam:**\n- JEE Advanced for B.Tech.\n- GATE for M.Tech."
+      ]
+    },
+    {
+      "tag": "IISc_Bengaluru",
+      "patterns": [
+        "What about IISc Bengaluru?",
+        "Tell me about IISc Bengaluru.",
+        "What courses does IISc Bengaluru offer?",
+        "What is the fee structure of IISc Bengaluru?",
+        "Which entrance exam is required for IISc Bengaluru?"
+      ],
+      "responses": [
+        "The Indian Institute of Science (IISc) Bengaluru, established in 1909, is a premier institution for advanced scientific and technological research and education in India. It offers:\n- B.Sc (Research) in Physical Sciences, Chemical Sciences, Biological Sciences, and Mathematics.\n- M.Tech in various engineering specializations.\n- PhD programs in diverse fields of science and engineering.\n\n**Fee Structure:**\n- B.Sc (Research): Approximately ₹50,000 per year.\n- M.Tech: Approximately ₹25,000 per year.\n- PhD: No tuition fee; a stipend is provided for PhD students.\n\n**Entrance Exam:**\n- KVPY, JEE Advanced, or NEET for B.Sc (Research).\n- GATE for M.Tech.\n- Entrance test and interview for PhD programs."
+      ]
+    },
+    {
+      "tag": "private_college_fee_structure",
+      "patterns": [
+        "fee structure for private engineering colleges?",
+        "What is the fee structure for private engineering colleges?",
+        "How much does it cost to study at private colleges?",
+        "Fee details for private engineering colleges",
+        "What are the fees at private engineering institutes?"
+      ],
+      "responses": [
+        "The fee structure for private engineering colleges can vary significantly. Generally:\n1. **Tuition Fee**: ₹1,50,000 to ₹3,50,000 per year (depending on the college).\n2. **Hostel Fees**: ₹50,000 to ₹1,20,000 per year.\n3. **Other Fees**: Miscellaneous charges, including lab, library, and development fees, range from ₹20,000 to ₹50,000 annually. Scholarships and financial aid are available at some institutes."
+      ]
+    },
+    {
+      "tag": "maharashtra_colleges",
+      "patterns": [
+        "engineering colleges in Maharashtra?",
+        "What are the top engineering colleges in Maharashtra?",
+        "List the engineering colleges in Maharashtra",
+        "Tell me about the top colleges in Maharashtra for BTech",
+        "Top BTech colleges in Maharashtra",
+        "Best engineering colleges in Maharashtra"
+      ],
+      "responses": [
+        "Here are some of the top engineering colleges in Maharashtra:\n1. **College of Engineering Pune (COEP)**\n2. **Veermata Jijabai Technological Institute (VJTI), Mumbai**\n3. **Institute of Chemical Technology (ICT), Mumbai**\n4. **Visvesvaraya National Institute of Technology (VNIT), Nagpur**\n5. **Sardar Patel College of Engineering (SPCE), Mumbai**"
+      ]
+    },
+    {
+      "tag": "tamil_nadu_colleges",
+      "patterns": [
+        "engineering colleges in Tamil Nadu?",
+        "What are the top engineering colleges in Tamil Nadu?",
+        "List the engineering colleges in Tamil Nadu",
+        "Tell me about the top colleges in Tamil Nadu for BTech",
+        "Top BTech colleges in Tamil Nadu",
+        "Best engineering colleges in Tamil Nadu"
+      ],
+      "responses": [
+        "Here are some of the top engineering colleges in Tamil Nadu:\n1. **Indian Institute of Technology Madras (IITM)**\n2. **Anna University, Chennai**\n3. **National Institute of Technology (NIT), Trichy**\n4. **PSG College of Technology, Coimbatore**\n5. **Vellore Institute of Technology (VIT), Vellore**"
+      ]
+    },
+    {
+      "tag": "karnataka_colleges",
+      "patterns": [
+        "What are the top engineering colleges in Karnataka?",
+        "List the engineering colleges in Karnataka",
+        "Tell me about the top colleges in Karnataka for BTech",
+        "Top BTech colleges in Karnataka",
+        "Best engineering colleges in Karnataka"
+      ],
+      "responses": [
+        "Here are some of the top engineering colleges in Karnataka:\n1. **Indian Institute of Science (IISc), Bangalore**\n2. **R.V. College of Engineering (RVCE), Bangalore**\n3. **PES University, Bangalore**\n4. **National Institute of Technology Karnataka (NITK), Surathkal**\n5. **BMS College of Engineering, Bangalore**"
+      ]
+    },
+    {
+      "tag": "uttar_pradesh_colleges",
+      "patterns": [
+        "What are the top engineering colleges in Uttar Pradesh?",
+        "List the engineering colleges in Uttar Pradesh",
+        "Tell me about the top colleges in Uttar Pradesh for BTech",
+        "Top BTech colleges in Uttar Pradesh",
+        "Best engineering colleges in Uttar Pradesh"
+      ],
+      "responses": [
+        "Here are some of the top engineering colleges in Uttar Pradesh:\n1. **Indian Institute of Technology Kanpur (IITK)**\n2. **Motilal Nehru National Institute of Technology (MNNIT), Allahabad**\n3. **Harcourt Butler Technical University (HBTU), Kanpur**\n4. **Institute of Engineering and Technology (IET), Lucknow**\n5. **Jaypee Institute of Information Technology (JIIT), Noida**"
+      ]
+    },
+    {
+      "tag": "west_bengal_colleges",
+      "patterns": [
+        "What are the top engineering colleges in West Bengal?",
+        "List the engineering colleges in West Bengal",
+        "Tell me about the top colleges in West Bengal for BTech",
+        "Top BTech colleges in West Bengal",
+        "Best engineering colleges in West Bengal"
+      ],
+      "responses": [
+        "Here are some of the top engineering colleges in West Bengal:\n1. **Indian Institute of Technology Kharagpur (IITKGP)**\n2. **Jadavpur University, Kolkata**\n3. **National Institute of Technology (NIT), Durgapur**\n4. **Indian Institute of Engineering Science and Technology (IIEST), Shibpur**\n5. **Heritage Institute of Technology, Kolkata**"
+      ]
+    },
+    {
+      "tag": "gujarat_colleges",
+      "patterns": [
+        "What are the top engineering colleges in Gujarat?",
+        "List the engineering colleges in Gujarat",
+        "Tell me about the top colleges in Gujarat for BTech",
+        "Top BTech colleges in Gujarat",
+        "Best engineering colleges in Gujarat"
+      ],
+      "responses": [
+        "Here are some of the top engineering colleges in Gujarat:\n1. **Indian Institute of Technology Gandhinagar (IITGN)**\n2. **Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar**\n3. **Nirma University, Ahmedabad**\n4. **Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat**\n5. **L.D. College of Engineering, Ahmedabad**"
+      ]
+    },
+    {
+      "tag": "madhya_pradesh_colleges",
+      "patterns": [
+        "What are the top engineering colleges in Madhya Pradesh?",
+        "List the engineering colleges in Madhya Pradesh",
+        "Tell me about the top colleges in Madhya Pradesh for BTech",
+        "Top BTech colleges in Madhya Pradesh",
+        "Best engineering colleges in Madhya Pradesh"
+      ],
+      "responses": [
+        "Here are some of the top engineering colleges in Madhya Pradesh:\n1. **Indian Institute of Technology Indore (IITI)**\n2. **Maulana Azad National Institute of Technology (MANIT), Bhopal**\n3. **Shri G. S. Institute of Technology and Science (SGSITS), Indore**\n4. **Devi Ahilya Vishwavidyalaya (DAVV), Indore**\n5. **University Institute of Technology (UIT), Bhopal**\n6. **Jabalpur Engineering College, Jabalpur**\n7. **Samrat Ashok Technological Institute (SATI), Vidisha**\n8. **Madicaps, Indore**\n9. **Madhav Institute of Technology and Science (MITS), Gwalior**\n10. **Indore Institute of Science and Technology (IPS), Indore**\n11. **Laxmi Narain College of Technology (LNCT), Bhopal**\n12. **Oriental Institute of Science and Technology, Bhopal**"
+      ]
+    },
+    {
+      "tag": "iiti",
+      "patterns": [
+        "Tell me about IIT Indore",
+        "What is the fee structure for IIT Indore?"
+      ],
+      "responses": [
+        {
+          "info": "Indian Institute of Technology Indore (IITI) is a premier engineering institution established in 2009. It offers BTech degrees in various branches such as Computer Science, Electrical Engineering, Mechanical Engineering, and Civil Engineering. The institute focuses on cutting-edge research and innovation, encouraging students to engage in projects and internships. The campus features state-of-the-art facilities, including modern laboratories, libraries, and hostels. IITI has a strong placement record, with many students securing positions in top multinational companies.",
+          "fee_structure": "Approx. ₹2,00,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "manit",
+      "patterns": [
+        "Tell me about MANIT Bhopal",
+        "What is the fee structure for MANIT?"
+      ],
+      "responses": [
+        {
+          "info": "Maulana Azad National Institute of Technology (MANIT), Bhopal, is one of the National Institutes of Technology established in 1960. It offers undergraduate programs in various engineering disciplines such as Civil, Computer Science, Electronics, and Mechanical Engineering. The campus is equipped with modern classrooms, laboratories, and research facilities. MANIT is known for its vibrant student life and extracurricular activities, including technical fests and cultural events. The institute has a robust placement cell that assists students in internships and job placements.",
+          "fee_structure": "Approx. ₹1,25,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "sgsits",
+      "patterns": [
+        "Shri G. S. Institute of Technology and Science (SGSITS), Indore",
+        "Tell me about SGSITS",
+        "What is the fee structure for SGSITS?"
+      ],
+      "responses": [
+        {
+          "info": "Shri G. S. Institute of Technology and Science (SGSITS), Indore, is an autonomous institution established in 1952. It offers BTech degrees in branches like Information Technology, Computer Science, and Electrical Engineering. SGSITS emphasizes a balanced education, blending theoretical knowledge with practical skills. The campus is equipped with modern infrastructure, including well-equipped laboratories and a dedicated library. The institute has a strong alumni network, contributing to placement opportunities in various industries.",
+          "fee_structure": "Approx. ₹1,20,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "davv",
+      "patterns": [
+        "Devi Ahilya Vishwavidyalaya (DAVV), Indore",
+        "Tell me about DAVV",
+        "What is the fee structure for DAVV?"
+      ],
+      "responses": [
+        {
+          "info": "Devi Ahilya Vishwavidyalaya (DAVV), Indore, is a multi-faculty university offering various undergraduate and postgraduate courses, including engineering programs. The engineering college at DAVV provides degrees in disciplines such as Computer Science, Information Technology, and Electronics. The university is known for its research initiatives and industry collaborations. It has a well-maintained campus with facilities like a central library, sports complex, and computer labs. DAVV offers various opportunities for student development through workshops, seminars, and internships.",
+          "fee_structure": "Approx. ₹70,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "uit_bhopal",
+      "patterns": [
+        "Tell me about UIT Bhopal",
+        "What is the fee structure for UIT Bhopal?"
+      ],
+      "responses": [
+        {
+          "info": "University Institute of Technology (UIT), Bhopal, is affiliated with Barkatullah University. It offers BTech programs in fields such as Civil, Computer Science, and Mechanical Engineering. UIT focuses on providing quality education with modern teaching methodologies, including hands-on training and industrial exposure. The campus features well-equipped laboratories and libraries. UIT encourages research activities and provides students with opportunities to participate in various national and international competitions.",
+          "fee_structure": "Approx. ₹80,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "jabalpur_engineering_college",
+      "patterns": [
+        "jec",
+        "Tell me about Jabalpur Engineering College",
+        "What is the fee structure for Jabalpur Engineering College?"
+      ],
+      "responses": [
+        {
+          "info": "Jabalpur Engineering College, established in 1967, is one of the oldest engineering colleges in Madhya Pradesh. It offers BTech programs in branches like Mechanical, Civil, and Electronics. The college emphasizes practical learning through industrial visits, workshops, and internships. It has a sprawling campus with well-maintained facilities, including laboratories and hostels. The college also has a strong placement record, with many students securing jobs in reputed firms.",
+          "fee_structure": "Approx. ₹50,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "sati",
+      "patterns": [
+        "Samrat Ashok Technological Institute (SATI), Vidisha",
+        "Tell me about SATI",
+        "What is the fee structure for SATI?"
+      ],
+      "responses": [
+        {
+          "info": "Samrat Ashok Technological Institute (SATI), Vidisha, is a well-recognized engineering institution established in 1960. It offers BTech programs in various engineering fields, including Computer Science, Information Technology, and Mechanical Engineering. SATI focuses on skill development and practical exposure, providing students with opportunities for internships and placements. The campus is equipped with modern infrastructure, including labs, libraries, and recreational facilities. SATI also encourages students to participate in extracurricular activities to enhance their overall development.",
+          "fee_structure": "Approx. ₹60,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "madicaps",
+      "patterns": [
+        "Tell me about Madicaps",
+        "What is the fee structure for Madicaps?"
+      ],
+      "responses": [
+        {
+          "info": "Madicaps is an engineering college located in Indore that offers BTech programs in various disciplines, including Computer Science and Electronics. The college emphasizes practical training, research, and development, providing students with a solid foundation in engineering principles. Madicaps has modern facilities, including state-of-the-art laboratories and a library. The college actively collaborates with industries for internships and placements, enhancing students' career prospects.",
+          "fee_structure": "Approx. ₹70,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "mits_gwalior",
+      "patterns": [
+        "Tell me about MITS Gwalior",
+        "What is the fee structure for MITS Gwalior?"
+      ],
+      "responses": [
+        {
+          "info": "Madhav Institute of Technology and Science (MITS), Gwalior, is an established engineering college offering BTech programs in disciplines like Civil, Computer Science, and Mechanical Engineering. The institute focuses on providing quality education with an emphasis on research and innovation. MITS has a well-equipped campus with modern classrooms, laboratories, and recreational facilities. The college has a robust placement cell that facilitates internships and job placements for students.",
+          "fee_structure": "Approx. ₹75,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "ips",
+      "patterns": [
+        "Tell me about IPS",
+        "What is the fee structure for IPS?"
+      ],
+      "responses": [
+        {
+          "info": "Indore Institute of Science and Technology (IPS) offers a range of BTech programs in fields such as Computer Science, Electronics, and Information Technology. The institute emphasizes practical learning and skill development, preparing students for the competitive job market. IPS features modern infrastructure, including well-equipped laboratories and libraries. The college organizes various workshops and seminars, providing students with exposure to industry trends and technologies.",
+          "fee_structure": "Approx. ₹80,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "lnct",
+      "patterns": [
+        "Tell me about LNCT",
+        "What is the fee structure for LNCT?"
+      ],
+      "responses": [
+        {
+          "info": "Laxmi Narain College of Technology (LNCT), Bhopal, offers BTech programs in various engineering disciplines, including Civil, Computer Science, and Mechanical Engineering. The college is known for its modern facilities and experienced faculty. LNCT focuses on practical training, research, and student development, providing ample opportunities for internships and placements. The campus is equipped with advanced laboratories, libraries, and recreational facilities to enhance the learning experience.",
+          "fee_structure": "Approx. ₹85,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "oriental",
+      "patterns": [
+        "Tell me about Oriental Institute of Science and Technology",
+        "What is the fee structure for Oriental Institute?"
+      ],
+      "responses": [
+        {
+          "info": "Oriental Institute of Science and Technology, Bhopal, offers a variety of BTech programs with a focus on quality education and research. The college has modern infrastructure, including well-equipped labs, libraries, and a computer center. Oriental Institute encourages student participation in research projects and internships, enhancing practical knowledge and skills. The institute has a strong placement cell that connects students with potential employers, facilitating job placements.",
+          "fee_structure": "Approx. ₹90,000 per year."
+        }
+      ]
+    },
+    {
+      "tag": "top_bsc_colleges",
+      "patterns": [
+        "BSc colleges",
+        "What are the top BSc colleges in India?",
+        "Can you list the best BSc colleges in India?",
+        "Which are the best colleges for BSc courses?",
+        "What are the top universities for BSc?",
+        "Best colleges for BSc after 12th",
+        "Top institutions offering BSc programs"
+      ],
+      "responses": [
+        "Here are some of the top BSc colleges in India:\n1. **St. Stephen's College, Delhi** - Known for its excellent faculty and academic rigor, offers BSc in subjects like Mathematics, Chemistry, and Physics.\n2. **Presidency College, Kolkata** - A prestigious institution with a long history of offering quality education in the sciences.\n3. **Loyola College, Chennai** - Ranked among the top science colleges in India, it offers a wide range of BSc courses including Statistics, Chemistry, and Physics.\n4. **Madras Christian College, Chennai** - Offers well-rounded BSc programs in fields like Botany, Zoology, and Chemistry.\n5. **Christ University, Bengaluru** - Known for its strong science programs, offering BSc in various disciplines including Biotechnology, Mathematics, and Physics.\n6. **Hindu College, Delhi** - One of the top colleges under Delhi University, known for its strong faculty in the science departments.\n7. **Miranda House, Delhi** - Ranked highly for its BSc programs, particularly in Physics and Chemistry.\n8. **Fergusson College, Pune** - Offers excellent BSc courses with a focus on research and innovation in subjects like Environmental Science, Microbiology, and Geology.\n9. **Mount Carmel College, Bengaluru** - A reputed institution for women, known for its strong science curriculum.\n10. **Banaras Hindu University (BHU), Varanasi** - One of the oldest and most prestigious universities offering BSc programs in a variety of subjects."
+      ]
+    },
+    {
+      "tag": "top_bsc_colleges_mp",
+      "patterns": [
+        "top BSc colleges in MP",
+        "MP BSc colleges",
+        "BSc college in madhya pradesh",
+        "What are the top BSc colleges in MP?",
+        "List the best colleges for BSc in Madhya Pradesh",
+        "Top government colleges for BSc in MP",
+        "Best science colleges in Madhya Pradesh for BSc",
+        "Top BSc institutions in MP",
+        "Best BSc colleges in MP"
+      ],
+      "responses": [
+        "Here are some of the top colleges for BSc in Madhya Pradesh:\n1. **Government Holkar Science College, Indore** - One of the most prestigious colleges for science education in MP, offering BSc in a wide range of disciplines like Physics, Chemistry, Mathematics, Zoology, and Botany.\n2. **Institute for Excellence in Higher Education (IEHE), Bhopal** - Known for its excellent BSc programs in subjects like Mathematics, Physics, Chemistry, and Biotechnology. The college focuses on high academic standards and research.\n3. **Government Model Science College, Jabalpur** - Offers a variety of BSc programs and has a strong reputation for quality education and research in science.\n4. **Madhav Science College, Ujjain** - A well-known government institution providing BSc degrees in traditional and modern science streams such as Physics, Chemistry, Mathematics, and Computer Science.\n5. **Maharani Laxmi Bai Government College of Excellence, Gwalior** - A reputed college offering BSc programs in multiple disciplines including Physics, Chemistry, and Mathematics, known for its academic rigor.\n6. **Atal Bihari Vajpayee Government Arts and Science College, Indore** - Offers BSc programs in various science subjects, with a focus on quality education and infrastructure.\n7. **Government Autonomous Science College, Satna** - Known for its well-structured BSc courses in traditional sciences, with experienced faculty and research opportunities.\n8. **Government Science College, Bhopal** - A prominent institution offering BSc in Physics, Chemistry, Mathematics, and Environmental Science with a strong academic environment.\n9. **Sarojini Naidu Government Girls PG College, Bhopal** - A well-regarded institution for female students, offering BSc programs in a variety of science disciplines.\n10. **Government PG College, Chhindwara** - Offers BSc degrees in several streams with a focus on practical and theoretical knowledge in sciences.\n11. **Shri Neelkantheshwar Government Post Graduate College, Khandwa** - Known for its science programs and offering BSc courses in Chemistry, Botany, Zoology, and more.\n12. **Government Mata Jijabai Post Graduate Girls College, Indore** - A leading institution for women, offering BSc courses in various fields of science.\n13. **Government PG College, Seoni** - Offers BSc programs in science subjects with good academic resources and research facilities.\n14. **Govt. PG College, Datia** - Offers quality BSc programs in traditional science fields, focusing on both academic and research growth.\n15. **Government Arts and Science College, Ratlam** - A respected institution offering BSc courses in Physics, Chemistry, and Mathematics."
+      ]
+    },
+    {
+      "tag": "bsc_colleges_fee_mp",
+      "patterns": [
+        "MP bsc colleges fee",
+        "What is the fee structure for BSc colleges in MP?",
+        "How much is the fee for BSc in MP?",
+        "Fee details for BSc courses in Madhya Pradesh",
+        "What is the annual fee for BSc in MP colleges?",
+        "Tuition fee for top BSc colleges in MP",
+        "Cost of studying BSc in Madhya Pradesh"
+      ],
+      "responses": [
+        "Here is the general fee structure for some of the top BSc colleges in Madhya Pradesh:\n\n1. **Government Holkar Science College, Indore**: The fee for BSc programs ranges from ₹5,000 to ₹7,000 per year, depending on the course and stream.\n\n2. **Institute for Excellence in Higher Education (IEHE), Bhopal**: The BSc program fee is approximately ₹10,000 to ₹12,000 per year for various streams like Mathematics, Physics, and Chemistry.\n\n3. **Government Model Science College, Jabalpur**: The annual fee for BSc programs here is around ₹6,000 to ₹8,000, with slight variations for different subjects.\n\n4. **Madhav Science College, Ujjain**: The BSc program fee is approximately ₹4,500 to ₹6,000 per year.\n\n5. **Maharani Laxmi Bai Government College of Excellence, Gwalior**: The fee for BSc courses ranges from ₹5,000 to ₹7,000 annually, depending on the chosen stream.\n\n6. **Atal Bihari Vajpayee Government Arts and Science College, Indore**: The annual fee is around ₹6,000 to ₹8,000 for BSc programs.\n\n7. **Government Autonomous Science College, Satna**: The fee for BSc courses is approximately ₹5,000 to ₹7,000 per year.\n\n8. **Government Science College, Bhopal**: The BSc program fee is typically around ₹7,000 per year.\n\n9. **Sarojini Naidu Government Girls PG College, Bhopal**: The fee for BSc programs is ₹5,000 to ₹6,500 per year for different streams.\n\n10. **Government PG College, Chhindwara**: The fee for BSc courses is approximately ₹5,500 to ₹7,000 per year.\n\n11. **Shri Neelkantheshwar Government Post Graduate College, Khandwa**: The fee for BSc programs is around ₹4,500 to ₹6,500 per year.\n\n12. **Government Mata Jijabai Post Graduate Girls College, Indore**: The fee for BSc courses ranges from ₹5,000 to ₹6,500 per year.\n\n13. **Government PG College, Seoni**: The annual fee for BSc programs is around ₹5,000 to ₹6,500.\n\n14. **Govt. PG College, Datia**: The BSc program fee is typically ₹5,000 to ₹7,000 per year.\n\n15. **Government Arts and Science College, Ratlam**: The fee for BSc courses is around ₹4,500 to ₹6,000 annually.\n\nPlease note that these fees are indicative and may vary slightly based on the specific course, stream, and additional charges like laboratory fees or college development funds."
+      ]
+    },
+    {
+      "tag": "bsc_colleges_fee_india",
+      "patterns": [
+        "bsc college fee",
+        "fee for BSc in India?",
+        "bsc fee in india",
+        "What is the fee structure for top BSc colleges in India?",
+        "How much is the fee for BSc in India?",
+        "Fee details for BSc courses in top Indian colleges",
+        "What is the annual fee for BSc in top Indian universities?",
+        "Tuition fee for best BSc colleges in India",
+        "Cost of studying BSc in India"
+      ],
+      "responses": [
+        "Here is the general fee structure for some of the top BSc colleges in India:\n\n1. **St. Stephen's College, Delhi**: The annual fee for BSc programs ranges from ₹40,000 to ₹45,000, depending on the course and specialization.\n\n2. **Presidency College, Kolkata**: The fee for BSc programs is approximately ₹2,500 to ₹5,000 per year, making it one of the more affordable options for higher education.\n\n3. **Loyola College, Chennai**: The BSc course fee is around ₹30,000 to ₹35,000 per year for various science subjects.\n\n4. **Madras Christian College, Chennai**: The annual fee for BSc programs is between ₹20,000 to ₹35,000, depending on the subject.\n\n5. **Christ University, Bengaluru**: The fee for BSc programs here is higher, ranging from ₹80,000 to ₹1,10,000 per year, depending on the specialization.\n\n6. **Hindu College, Delhi**: The BSc course fee is around ₹18,000 to ₹25,000 annually, depending on the subject.\n\n7. **Miranda House, Delhi**: The fee for BSc programs is approximately ₹18,000 to ₹23,000 per year, depending on the subject.\n\n8. **Fergusson College, Pune**: The annual fee for BSc programs ranges from ₹10,000 to ₹20,000, depending on the specific course and subject.\n\n9. **Mount Carmel College, Bengaluru**: The BSc program fee is approximately ₹50,000 to ₹70,000 per year.\n\n10. **Banaras Hindu University (BHU), Varanasi**: The BSc course fee is quite affordable, ranging from ₹3,000 to ₹5,000 annually for different subjects.\n\nPlease note that these fees are approximate and can vary based on the course structure, laboratory fees, and additional charges."
+      ]
+    }
+  ]
+}

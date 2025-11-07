@@ -1,0 +1,166 @@
+/* Basic styling for the chat interface */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.chat-container {
+    width: 670px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#chatbox {
+    height: 425px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#chat-log {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-message, .bot-message {
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.user-message {
+    background-color: #0084ff;
+    color: white;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: #f1f0f0;
+    color: black;
+    align-self: flex-start;
+}
+
+input[type="text"] {
+    width: calc(105% - 80px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Keep existing styles */
+
+/* Sidebar */
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #222;
+    color: white;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    transition: left 0.3s ease-in-out;
+    padding: 15px;
+}
+
+#sidebar.open {
+    left: 0;
+}
+
+/* Sidebar Toggle Button */
+#toggle-sidebar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #0084ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+/* Close Button */
+#close-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* User Profile */
+#user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: #333;
+    border-bottom: 1px solid #444;
+}
+
+/* Circular Profile Icon */
+#profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0084ff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Search History */
+#history-list {
+    list-style: none;
+    padding: 0;
+}
+
+#history-list li {
+    padding: 5px;
+}
+
+#history-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+#logout-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+#logout-btn:hover {
+    background-color: darkred;
+}
+
