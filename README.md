@@ -29,7 +29,7 @@ The system routes each user query to the appropriate path: predefined intent res
 
 The chatbot follows a hybrid architecture where the query is processed and routed to either the **Intent path** or the **RAG path**.
 
-![Hybrid Chatbot Architecture](docs/architecture.png)
+![Hybrid AI Chatbot Architecture](docs/architecture.png)
 
 ### High-Level Flow
 
